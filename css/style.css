@@ -46,7 +46,7 @@ a{
 
 #ticpage a h2:hover{
   color: gold;
-  
+
 }
 #ticpage a h4:hover{
   color: gold;
@@ -60,17 +60,10 @@ html{
 body{
   margin: 0;
   width: 100%;
-  /*background-image:url( "http://pre03.deviantart.net/95a7/th/pre/i/2011/050/4/9/smoke_texture_by_ashensorrow-d39w13u.jpg");*/
-
-  /*background-image:url( "http://il5.picdn.net/shutterstock/videos/20445745/thumb/9.jpg");*/
   background-color: #800000;
-  /*background-image: url("https://images.designtrends.com/wp-content/uploads/2015/11/06084012/Dark-Seamless-Wood-Texture1.jpg");*/
-  /*background-image: url('http://grillininthebreeze.com/wp-content/uploads/2014/02/grill_background_1700.jpg');*/
-  /*background-color: #251109;*/
   background-size: cover;
 }
 main{
-  /*background-color: lightgreen;*/
   margin-left: 120px;
   margin-right:120px;
   width: 84%;
@@ -466,9 +459,6 @@ nav li{
   margin-top: 40%;
 }
 
-/*END OF IRON MAIDEN SECTION*/
-
-
 #contact button{
 background-color: maroon;
 height: 75px;
@@ -494,78 +484,6 @@ border: none;
   }
 
 }
-/*@media all and (max-width: 2000px) {
-  #abouttitlespic{
-    margin-top: -7.5%;
-    padding-left: 33%;
-  }
-
-}*/
-/*@media all and (max-width: 1950px) {
-  #abouttitlespic{
-    margin-top: -7.5%;
-    padding-left: 33%;
-  }
-
-}*/
-/*@media all and (max-width: 1900px) {
-  #abouttitlespic{
-
-    margin-top: -6.75%;
-  }
-
-}*/
-
-/*@media all and (max-width: 1850px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -7%;
-    opacity: 70%;
-  }
-
-}*/
-/*@media all and (max-width: 1800px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -7.25%;
-    opacity: 70%;
-  }
-
-}*/
-/*@media all and (max-width: 1750px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -7.5%;
-    opacity: 70%;
-  }
-
-}*/
-/*@media all and (max-width: 1700px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -8%;
-    opacity: 70%;
-  }
 
 }*/
 @media all and (max-width: 1500px) {
@@ -602,12 +520,31 @@ border: none;
     padding: 0;
     margin: 0px;
   }
-
 }
 
 
+@media all and (max-width: 1050px) {
+
+  #contact1{
+    padding-left: 20%;
+    font-size: 30px;
+  }
+
+  #contact button{
+  background-color: maroon;
+  height: 50px;
+  width: 150px;
+  font-family: Acme;
+  font-size: 30px;
+  border: none;
+  }
+
+  #contact1 a{
+    padding-right: 6%;
+  }
 
 
+}
 
 @media all and (max-width: 990px) {
 
@@ -954,6 +891,9 @@ border: none;
       margin-bottom: 3%;
     }
 
+    #contact1 a{
+      padding-right: 0%;
+    }
 
 }
 @media all and (max-width: 420px) {

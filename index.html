@@ -25,10 +25,10 @@
 
   <!--these are my styles-->
     <link type="text/css" rel="stylesheet" href="css/style.css">
+
 </head>
 
-<!-- END OF HEAD -->
-
+<!-- Start of Navigation -->
 <body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
 
 <div class="container-fluid">
@@ -36,15 +36,15 @@
     <nav class="col-md-1" id="myScrollspy">
       <ul class="nav nav-pills nav-stacked hidden-xs hidden-sm" data-spy="affix">
         <img src="img/2ndsausagecornersfliptwist2.png">
-        <li><a id="mystorysausage1"
+        <li><a class="mystorylinks" id="mystorysausage1"
         href="#about">My Story</a></li>
-        <li><a id="mystorysausage0" href="#about">Resume</a></li>
-        <li><a id="mystorysausage"
+        <li><a class="mystorylinks" id="mystorysausage0" href="#about">Resume</a></li>
+        <li><a class="mystorylinks" id="mystorysausage"
         href="#tic">Tic Tac Toe</a></li>
-        <li><a id="mystorysausage2" href="#dels">Del's</a></li>
-        <li><a id="mystorysausage3"
+        <li><a class="mystorylinks" id="mystorysausage2" href="#dels">Del's</a></li>
+        <li><a class="mystorylinks" id="mystorysausage3"
         href="#winery">Vinyard</a></li>
-        <li><a id="mystorysausage4" href="#contact">Contact</a></li>
+        <li><a class="mystorylinks" id="mystorysausage4" href="#contact">Contact</a></li>
         <img src="img/2ndsausagecornersfliptwist.png">
       </ul>
     </nav>
@@ -53,22 +53,19 @@
 
 
 <main>
-
-<!--I want to add a video of me removing the lid of a grill. Smoke will dissapate, and then the text will emerge after about 8 -->
-<div class="container-fluid"></div>
-  <div class="row">
-    <div class="col-md-12">
-      <div class="fullscreen-bg">
-        <video muted autoplay poster="img/videoframe.jpg" id="bgvid">
-          <source src="img/grilling.mp4" type="video/webm">
-        </video>
+<!-- This is where the video of the grill is. -->
+  <div class="container-fluid"></div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="fullscreen-bg">
+          <video muted autoplay poster="img/videoframe.jpg" id="bgvid">
+            <source src="img/grilling.mp4" type="video/webm">
+          </video>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-
-
+<!-- These are the links that appear over the video. -->
   <div id="header" class="animated fadeIn">
     <div id="delsinhead">
       <a href="../../04week/01checkpoint/index.html"><h1>Del's Lemonade</h1></a>
@@ -87,7 +84,7 @@
     </div>
   </div>
 
-<!-- -------------------START OF ABOUT SECTION------------------- -->
+<!-- START OF ABOUT SECTION -->
 
   <div class="jumbotron" id="about">
     <div class="container-fluid"></div>
@@ -110,7 +107,7 @@
               <h4>Friendly</h4>
             </div>
             <div id="abouttitlespic" class="animated fadeIn">
-              <img src="img/smokeforsmoker.png" alt="">
+              <img src="img/smokeforsmoker.png" alt="cloud of smoke">
             </div>
           </div>
         </div>
@@ -131,8 +128,6 @@
     </div>
   </div>
 
-<!-- ------------END OF ABOUT SECTION--------------------- -->
-
 <!-- START OF TIC TAC TOE SECTION -->
 
   <div class="jumbotron" id="tic">
@@ -150,16 +145,13 @@
     </div>
   </div>
 
-  <!-- END OF TIC TAC TOE SECTION -->
-
-
 <!-- START OF DELS SECTION -->
 
   <div class="jumbotron" id="dels">
     <div class="container-fluid"></div>
       <div class="row">
         <div class="col-md-12">
-          <div id="delspage" class="animated zoomIn">
+          <div id="delspage">
             <a href="../../04week/01checkpoint/index.html">
               <h2>Nothing like a cool Del's after a hot day at the beach!</h2>
             </a>
@@ -191,9 +183,10 @@
     </div>
   </div>
 
-<!-- --------------------END OF WINERY-------------- -->
-
+<!-- END OF MAIN -->
 </main>
+
+<!-- START OF CONTACT -->
 
 <div class="jumbotron" id="contact">
   <div class="container-fluid"></div>

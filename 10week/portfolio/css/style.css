@@ -60,13 +60,7 @@ html{
 body{
   margin: 0;
   width: 100%;
-  /*background-image:url( "http://pre03.deviantart.net/95a7/th/pre/i/2011/050/4/9/smoke_texture_by_ashensorrow-d39w13u.jpg");*/
-
-  /*background-image:url( "http://il5.picdn.net/shutterstock/videos/20445745/thumb/9.jpg");*/
   background-color: #800000;
-  /*background-image: url("https://images.designtrends.com/wp-content/uploads/2015/11/06084012/Dark-Seamless-Wood-Texture1.jpg");*/
-  /*background-image: url('http://grillininthebreeze.com/wp-content/uploads/2014/02/grill_background_1700.jpg');*/
-  /*background-color: #251109;*/
   background-size: cover;
 }
 main{
@@ -116,7 +110,7 @@ nav li{
 }
 
 
-#mystorysausage0{
+.mystorylinks{
   background-image:  url("../img/2ndsausagecornersflip.png");
   height: 50px;
   width:110px;
@@ -129,94 +123,41 @@ nav li{
   font-size: 16px;
   color: #900000;
 }
+#mystorysausage0{
+  background-image:  url("../img/2ndsausagecornersflip.png");
+}
 #mystorysausage{
   background-image:  url("../img/2ndsausagecorners.png");
-  height: 50px;
-  width:110px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  padding-top:20px;
-  margin-top: -4px;
-  font-family: 'Acme', sans-serif;
-  font-size: 16px;
-  color: #900000;
 }
 #mystorysausage1{
   background-image:  url("../img/2ndsausagecorners.png");
-  height: 50px;
-  width:110px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  padding-top:20px;
-  margin-top: -4px;
-  font-family: 'Acme', sans-serif;
-  font-size: 16px;
-  color: #900000;
 }
 #mystorysausage2{
   background-image:  url("../img/2ndsausagecornersflip.png");
-  height: 50px;
-  width:110px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  padding-top:20px;
-  margin-top: -4px;
-  font-family: 'Acme', sans-serif;
-  font-size: 16px;
-  color: #900000;
 }
 #mystorysausage3{
   background-image:  url("../img/2ndsausagecorners.png");
-  height: 50px;
-  width:110px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  padding-top:20px;
-  margin-top: -5px;
-  font-family: 'Acme', sans-serif;
-  font-size: 16px;
-  color: #900000;
-
 }
 #mystorysausage4{
   background-image:  url("../img/2ndsausagecornersflip.png");
-  height: 50px;
-  width:110px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  padding-left: 20px;
-  padding-top:20px;
-  margin-top: -5px;
-  font-family: 'Acme', sans-serif;
-  font-size: 16px;
-  color: #900000;
-
 }
 
 /*START OF HEADER*/
-
-
 
 #header{
 
       animation-delay:11s;
       animation-duration: 10s;
-  }
-
+}
 #header h1{
   color: white;
 }
-
 #delsinhead{
-
       position: absolute;
       left: 45%;
       top: 425px;
-      z-index: 2;  justify-content: center;
+      /*z-index: 2;*/
+      justify-content: center;
       padding: 0;
       margin: 0px;
 }
@@ -225,7 +166,8 @@ nav li{
       position: absolute;
       left: 21%;
       top: 300px;
-      z-index: 2;  justify-content: center;
+      /*z-index: 2;*/
+      justify-content: center;
       padding: 0;
       margin: 0px;
 }
@@ -234,7 +176,8 @@ nav li{
       position: absolute;
       left: 25%;
       top: 425px;
-      z-index: 2;  justify-content: center;
+      /*z-index: 2;*/
+      justify-content: center;
       padding: 0;
       margin: 0px;
 }
@@ -243,7 +186,8 @@ nav li{
       position: absolute;
       left: 35%;
       top: 650px;
-      z-index: 2;  justify-content: center;
+      /*z-index: 2;*/
+      justify-content: center;
       padding: 0;
       margin: 0px;
 }
@@ -252,7 +196,8 @@ nav li{
       position: absolute;
       left: 30%;
       top: 550px;
-      z-index: 2;  justify-content: center;
+      /*z-index: 2;*/
+      justify-content: center;
       padding: 0;
       margin: 0px;
 }
@@ -265,7 +210,6 @@ nav li{
 
 #about{
   background-image: url("../img/dramaticme.jpg");
-  /*max-width: 1714px;*/
   height: 800px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -314,7 +258,7 @@ nav li{
   animation-duration: 7s;
   animation-iteration-count: infinite;
 }
-
+/*This is the smoked effect with all the dang media queries*/
 #abouttitlespic{
   padding-left: 32%;
   padding-bottom: 1%;
@@ -324,7 +268,6 @@ nav li{
   margin-top: -11%;
   opacity: 10%;
   z-index: -1;
-
 }
 
 .aboutheader {
@@ -448,7 +391,6 @@ nav li{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
 #contact1{
@@ -465,9 +407,6 @@ nav li{
   font-size: 100px;
   margin-top: 40%;
 }
-
-/*END OF IRON MAIDEN SECTION*/
-
 
 #contact button{
 background-color: maroon;
@@ -494,80 +433,7 @@ border: none;
   }
 
 }
-/*@media all and (max-width: 2000px) {
-  #abouttitlespic{
-    margin-top: -7.5%;
-    padding-left: 33%;
-  }
 
-}*/
-/*@media all and (max-width: 1950px) {
-  #abouttitlespic{
-    margin-top: -7.5%;
-    padding-left: 33%;
-  }
-
-}*/
-/*@media all and (max-width: 1900px) {
-  #abouttitlespic{
-
-    margin-top: -6.75%;
-  }
-
-}*/
-
-/*@media all and (max-width: 1850px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -7%;
-    opacity: 70%;
-  }
-
-}*/
-/*@media all and (max-width: 1800px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -7.25%;
-    opacity: 70%;
-  }
-
-}*/
-/*@media all and (max-width: 1750px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -7.5%;
-    opacity: 70%;
-  }
-
-}*/
-/*@media all and (max-width: 1700px) {
-  #abouttitlespic{
-
-    padding-left: 33%;
-    padding-bottom: 1.25%;
-    animation-delay: 3.25s;
-    animation-duration: 7s;
-    animation-iteration-count: infinite;
-    margin-top: -8%;
-    opacity: 70%;
-  }
-
-}*/
 @media all and (max-width: 1500px) {
   #abouttitlespic{
 
@@ -595,17 +461,15 @@ border: none;
 /*HEADER BEGINS*/
   #ticinhead{
 
-        position: absolute;
-        left: 20%;
-        top: 425px;
-        z-index: 2;  justify-content: center;
+    position: absolute;
+    left: 20%;
+    top: 425px;
+    z-index: 2;
+    justify-content: center;
     padding: 0;
     margin: 0px;
   }
-
 }
-
-
 
 
 
@@ -625,11 +489,11 @@ border: none;
 
 /*START OF TIC TAC TOE MQ*/
   #ticinhead{
-
-        position: absolute;
-        left: 12%;
-        top: 425px;
-        z-index: 2;  justify-content: center;
+    position: absolute;
+    left: 12%;
+    top: 425px;
+    z-index: 2;
+    justify-content: center;
     padding: 0;
     margin: 0px;
   }
