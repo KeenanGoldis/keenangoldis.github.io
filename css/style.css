@@ -472,17 +472,13 @@ border: none;
   padding-right: 10%;
 }
 
-
 /*--------------------START OF MEDIA QUERIES*/
-
-
 
 @media all and (max-width: 2100px) {
   #abouttitlespic{
     margin-top: -7.5%;
     padding-left: 33%;
   }
-
 }
 
 }*/
@@ -493,7 +489,6 @@ border: none;
     margin-top: -11.75%;
     opacity: 70%;
   }
-
 }
 
 @media all and (max-width: 1445px) {
