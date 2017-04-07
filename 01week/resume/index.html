@@ -6,6 +6,8 @@
     <!--bootstrap CSS-->
       <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 
+      <!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 
   </head>
 <body>
@@ -114,46 +116,84 @@
         </ul>
       </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+</script>
+
+<script>
+
+  $(document).ready(function(){
+      $(document).ready(function(){
+          $("#webdevinfo").hide();
+      });
+      $("#webdev").hover(function(){
+          $("#webdevinfo").show('slideIn');
+      });
+    });
+
+  $(document).ready(function(){
+      $(document).ready(function(){
+          $("#codeimg").show();
+      });
+      $("#codeimg").hover(function(){
+          $("#codeimg").hide('slideIn');
+      });
+    });
+
+  $(document).ready(function(){
+      $(document).ready(function(){
+          $("#trans").hide();
+      });
+      $("#webdev").hover(function(){
+          $("#trans").show();
+      });
+    });
+</script>
+
 <!-- START OF WEB DEV SECTION -->
       <div class="col-md-4 col"id="webdev">
         <h2>Web Development Projects</h2>
         <div class="container-fluid"></div>
           <div class="row">
-            <div class="col-md-4">
-              <h3>Tic Tac Toe</h3>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h3>Portfolio</h3>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>CSS Animations</li>
-                <li>Bootstrap</li>
-                <li>Javascript</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h3>Winery Website</h3>
-              <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-              </ul>
+            <div id="codeimg"><img src="https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX10725277.jpg" alt=""></div>
+            <div id="webdevinfo">
+              <div class="col-md-4">
+                <h3>Tic Tac Toe</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Javascript</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3>Portfolio</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>CSS Animations</li>
+                  <li>Bootstrap</li>
+                  <li>Javascript</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h3>Winery Website</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
             </div>
           </div>
           <!-- START OF TRANSFERABLE SKILLS SECTION -->
           <h2 id="skills">Transferable Skills</h2>
-          <h5>Great Communicator</h5>
-          <h5>Business Analysis</h5>
-          <h5>Empathetic Manager</h5>
-          <h5>Social Media Savvy</h5>
-          <h5>Detail Oriented</h5>
-          <h5>Always Excited to Learn</h5>
+          <div id="trans">
+            <h5>Great Communicator</h5>
+            <h5>Business Analysis</h5>
+            <h5>Empathetic Manager</h5>
+            <h5>Social Media Savvy</h5>
+            <h5>Detail Oriented</h5>
+            <h5>Always Excited to Learn</h5>
+          </div>
         </div>
       </div>
   </div>

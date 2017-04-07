@@ -740,7 +740,7 @@ border: none;
   padding-top: 0%;
 }
 #smokeydescription h4{
- font-family: smokeyFont;
+ /*font-family: smokeyFont;*/
  font-size: 18px;
 }
 
