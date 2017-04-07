@@ -1,57 +1,69 @@
-html{
-  background-color: darkred;
+body{
 }
 
-table {
-  background-color: darkorange;
-  border:10px solid;
-  width: 75%;
-  height: 50px;
-  text-align:center;
+header{
+  background-color: #34FFAA;
+  text-align: center;
+  height: 150px;
 }
 
-img {
-border-radius: 50%;
-float: right;
-margin-right: 500px;
-margin-top: 65px;
-}
-.Education{
-  text-indent: 0px;
-  text-align: left;
-}
-
-li{
-  font-weight:bold;
-}
-
-h2{
-  align-self: center;
-}
-
-}
-
-tr{
-  border: blue, solid, 100px;
-  margin: 100px;
-  font-weight: bold;
-  hover: background-color:#red;
-}
-
-th{
-  font: Times;
-  font-weight:bold;
+.col h2{
+  font-size: 34px;
   text-align: center;
 }
-
-td{
-  font-weight:normal;
-  font: Arial;
+.col h4{
+  font-size: 18px;
   text-align: center;
 }
-
-a {
+.col h3{
+  font-size: 28px;
+  margin-top: 40px;
+  text-align: center;
+}
+.col h5{
+  font-size: 16px;
+  text-align: center;
+}
+.col h6{
+  font-size: 14px;
+  text-align: center;
+}
+.col ul{
+  text-align: center;
+}
+.col li{
+  text-align: center;
   text-decoration: none;
-  font-weight: bold;
-  color:darkorange;
+}
+
+#skills{
+  margin-top: 60px;
+}
+
+header span{
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 30px;
+}
+
+main{
+  height: auto;
+  background-color: #FFB81B;
+}
+
+.col{
+  height: 600px;
+}
+
+#edu{
+  background-color: #AFCFFF;
+}
+#work{
+  background-color: #9DBAE5;
+}
+#webdev{
+  background-color: #879FC4;
+}
+#transkills{
+  text-align: center;
 }

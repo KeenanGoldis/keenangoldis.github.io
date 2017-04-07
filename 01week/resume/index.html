@@ -3,138 +3,171 @@
   <head>
     <title>Keenan's Web Development Resume</title>
     <link href="style.css" type="text/css" rel="stylesheet">
+    <!--bootstrap CSS-->
+      <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+
   </head>
 <body>
+  <header>
+    <div class="container-fluid"></div>
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="title">Keenan Goldis - Web Developer</h1>
+          <!-- <span>Entreprenurial</span>
+          <span>Analytical</span>
+          <span>Friendly</span>
+          <span>Enthusiastic</span>
+          <span>Responsible</span> -->
+        </div>
+      </div>
+    </div>
+  </header>
 <main>
-    <header>
-      <h1>Keenan Goldis</h1>
-      <h3>
-        <table>
-          <tr>
-          <th>Entreprenurial</th>
-          <th>Analytical</th>
-
-        </tr>
-          <th>Enthusiastic</th>
-          <th>Friendly</th>
-        <tr>
-
-        </tr>
-
-        </table>
-      </h3>
-    </header>
-
-
-<!--I would like this to be column 1-->
-<h1>Education</h1>
-<section>
-    <div class="Education">
-<!--This is my Edu table-->
-<table>
-<tr>
-<th>B.S. in Psychology, Cum Laude</th>
-<th>Full Stack Web Development 101 (In Progress)</th>
-</tr>
-
-<tr>
-<td>Texas State University</td>
-<td>Austin Coding Academy</td>
-</tr>
-
-<tr>
-<td>Texas State GPA: 3.52</td>
-<td>HTML & CSS</td>
-</tr>
-
-<tr>
-<td>Minor: Politcal Science</td>
-<td>Responsive Web Design</td>
-</tr>
-
-</table>
-
-</div class="Education">
-</section>
-
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAbBAAAAJDc4MjVlNzM4LTZkOGUtNDY2Mi05MGNjLTM2NDUxNmVlN2JmMA.jpg"
-  <section>
-    <div class="WorkExperience">
-      <h1>Work Experience</h1>
-        <h3>Owner and General Manager, Goldis Sausage Company (2013-2015)</h3>
-              <p>
+<script>
+    $(document).ready(function() {
+      $('div').hover(function() {
+          $(this).effect('bounce', {times:3}, 500);
+      });
+  });
+</script>
+  <!-- START OF EDUCATION SECTION -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 col" id="edu">
+        <h2>Education</h2>
+          <h3>Full Stack Web Development</h3>
+          <h4>Austin Coding Academy - 2017-Present</h4>
+          <div class="container-fluid"></div>
+            <div class="row">
+              <div class="col-md-4">
+                <h5>Proficient in:</h5>
                 <ul>
-                  <li>Planned, conceptualized, and managed the business by myself.</li>
-                  <li><a href= "https://www.yelp.com/biz/goldis-sausage-company-austin" target="_blank">Earned a 5 Star Yelp Rating.</a></li>
-                  <li>Worked 60-90 hour weeks for two years.</li>
-                  <li><a href= "https://www.facebook.com/GoldisSausageCompany/" target="_blank">Grew a Large Facebook Following.</a></li>
-                  <li>Hired and managed 9 employees throughout the duration of the business.</li>
-
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Responsive Web Design</li>
                 </ul>
-              </p>
-              <h3>Accountant I, Texas State Securities Board (2016)</h3>
-                  <ul>
-                    <li>Accounts Receivable/Payable</li>
-                    <li>Managing Job Opening/Closing & HR Assistance</li>
-                    <li>Analyzing and Distributing Mail</li>
-                    <li>Purchasing</li>
-                  </ul>
-                </h4>
-        <h3>Freelance Social Media Manager (2015)</h3>
-        <h4>Clients:
-            <ul>
-              <li>Workers Defense Project</li>
-              <li>InsureMyFoodTrailer.com</li>
-              <li>South Austin Gym</li>
-            </ul>
-        </h4>
-        <h3>Service Industry Experience (2006-2016)</h3>
-            <h4>
+              </div>
+              <div class="col-md-4">
+                <h5>Sufficient in:</h5>
                 <ul>
-                  <li>Sausage Production Consultant, Ramen Ya Holding Company (2016)</li>
-                  <li>Food Truck Manager, Smokey Denmark (2015-16)</li>
-                  <li>Doorman, The Wheel (2015)</li>
-                  <li>Food Runner and Barback, Contigo (2012)</li>
-                  <li>Barback, Cuba Libre (2008-2010)</li>
-                  <li>Busser, Z'tejas Grill (2006-2018)</li>
-                <ul/>
-            </h4>
-          </div class="WorkExperience>"
-    </section>
+                  <li> Javascript</li>
+                  <li>Jquery</li>
+                  <li>Bootstrap</li>
+                </ul>
+              </div>
+              <div class="col-md-4">
+                <h5>Learning:</h5>
+                <ul>
+                  <li>React</li>
+                  <li>AJAX</li>
+                  <li>Redux</li>
+                  <li>MongoDB</li>
+                </ul>
+              </div>
+            </div>
+          </br>
+            <h3>B.S. of Psychology, Cum Laude</h3>
+            <h4>Texas State University, San Marcos - 2011</h4>
+            <h5>Texas State GPA: 3.52</h5>
+            <h5>Minor in Political Science</h5>
+            <h5>Studied Abroad in London, UK</h5>
+          </div>
 
-<h1>Skills</h1>
-  <section>
-    <div class="Skills">
-<!--Skills Table-->
-  <table>
-    <tr>
-      <th>Web Development Skills</th>
-      <th>Other Skills</th>
-    </tr>
+<!-- START OF WORK EXPERIENCE SECTION -->
+      <div class="col-md-4 col" id="work">
+        <h2>Relevant Work Experience</h2>
+        <h3>Accountant I</h3>
+        <h4>Texas State Securities Board - 2016-Present</h4>
 
-    <tr>
-      <td>HTML 5 & CSS 3</td>
-      <td>Small Business Management</td>
-    </tr>
+          <h6>Promoted from Clerk to Accountant within 4 months.</h6>
 
-    <tr>
-      <td>GitHub</td>
-      <td>Social Media Managemnt</td>
-    </tr>
+        <h3>Social Media Manager</h3>
+        <h4>Workers Defense Project - 2015</h4>
+        <div class="container-fluid"></div>
+          <div class="row">
+            <div class="col-md-6">
+              <h5>Proficient in:</h5>
+              <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Hootsuite</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <h5>Sufficient in:</h5>
+              <ul>
+                <li>Press Releases</li>
+                <li>Video Editing</li>
+                <li>Email Marketing</li>
+              </ul>
+            </div>
+          </div>
 
-    <tr>
-      <td>Responsive Web Design</td>
-      <td>Gourmet Sausage Making</td>
-    </tr>
+        <h3>Owner & GM</h3>
+        <h4>Goldis Sausage Company - 2013-2015</h4>
+        <ul>
+          <li>Conceptualized, created, and managed a business by myself.</li>
+          <li>Managed 9 employees over 2 years</li>
+          <li>Worked many 70-90 hour weeks back-to-back</li>
+        </ul>
+      </div>
 
-    <tr>
-      <td>Developer Tools</td>
-      <td>Food Trailer Consulting</td>
-    </tr>
-
-  </table>
-</div class="Skills">
-</section>
+<!-- START OF WEB DEV SECTION -->
+      <div class="col-md-4 col"id="webdev">
+        <h2>Web Development Projects</h2>
+        <div class="container-fluid"></div>
+          <div class="row">
+            <div class="col-md-4">
+              <h3>Tic Tac Toe</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Portfolio</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>CSS Animations</li>
+                <li>Bootstrap</li>
+                <li>Javascript</li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3>Winery Website</h3>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+          <!-- START OF TRANSFERABLE SKILLS SECTION -->
+          <h2 id="skills">Transferable Skills</h2>
+          <h5>Great Communicator</h5>
+          <h5>Business Analysis</h5>
+          <h5>Empathetic Manager</h5>
+          <h5>Social Media Savvy</h5>
+          <h5>Detail Oriented</h5>
+          <h5>Always Excited to Learn</h5>
+        </div>
+      </div>
+  </div>
 </main>
+
+
+<!-- these are my JavaScript files -->
+
+<script src="js/javascript.js"></script>
+
+<!-- JQuery CDN script -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
 </body>
 </html>
