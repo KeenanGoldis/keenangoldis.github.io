@@ -602,10 +602,10 @@ border: none;
     }
     /*START OF ABOUT MQ*/
     #about h4{
-      font-family: cursive !important;
+      font-family: 'Coustard', serif !important;
     }
     #about h1{
-      font-family: cursive !important;
+      font-family: 'Coustard', serif !important;
     }
       .aboutheader h1{
         font-size: 70px;
