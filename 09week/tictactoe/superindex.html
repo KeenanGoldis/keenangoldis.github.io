@@ -56,8 +56,6 @@
         // Super Tic Tac Toe
         $(document).ready(function() {
             var playerTurn = 'X';
-            // let playerTurn = 'X' you can use "let" instead of var. It's better practice.;
-            // const playerTurn = 'X' would not allow you to re-define it.;
             $('[data-cell]').on('click', function() {
                 if ($(this).text() === '') {
                     $(this).text(playerTurn);

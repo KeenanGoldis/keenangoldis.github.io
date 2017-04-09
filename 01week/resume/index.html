@@ -10,154 +10,236 @@
 <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 
   </head>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+  </script>
+
+  <script>
+
+  // Education Section
+
+  // This unhides the text when overing over img
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#eduinfo").hide();
+        });
+        $("#codeimgedu").hover(function(){
+            $("#eduinfo").show('slideIn');
+        });
+      });
+
+  //this hides the image when hovered over
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#codeimgedu").show();
+        });
+        $("#codeimgedu").hover(function(){
+            $("#codeimgedu").hide('slideIn');
+        });
+      });
+  // Work Experience Section
+
+  // This unhides the text when overing over img
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#workexperienceinfo").hide();
+        });
+        $("#codeimgwork").hover(function(){
+            $("#workexperienceinfo").show('slideIn');
+        });
+      });
+
+  //this hides the image when hovered over
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#codeimgwork").show();
+        });
+        $("#codeimgwork").hover(function(){
+            $("#codeimgwork").hide('slideIn');
+        });
+      });
+
+  // Web Dev Info Section
+
+  // This unhides the text when overing over img
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#webdevinfo").hide();
+        });
+        $("#codeimg").hover(function(){
+            $("#webdevinfo").show('slideIn');
+        });
+      });
+
+  //this hides the image when hovered over
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#codeimg").show();
+        });
+        $("#codeimg").hover(function(){
+            $("#codeimg").hide('slideIn');
+        });
+      });
+
+  // Transferable Skills Section
+
+  // This unhides the text when overing over img
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#transinfo").hide();
+        });
+        $("#codeimg2").hover(function(){
+            $("#transinfo").show('slideIn');
+        });
+      });
+
+  //this hides the image when hovered over
+    $(document).ready(function(){
+        $(document).ready(function(){
+            $("#codeimg2").show();
+        });
+        $("#codeimg2").hover(function(){
+            $("#codeimg2").hide('slideIn');
+        });
+      });
+
+  </script>
+
+
 <body>
   <header>
     <div class="container-fluid"></div>
       <div class="row">
         <div class="col-md-12">
-          <h1 id="title">Keenan Goldis - Web Developer</h1>
-          <!-- <span>Entreprenurial</span>
-          <span>Analytical</span>
-          <span>Friendly</span>
-          <span>Enthusiastic</span>
-          <span>Responsible</span> -->
+          <!-- <h1 id="title">Keenan Goldis - Web Developer</h1> -->
         </div>
       </div>
     </div>
   </header>
 <main>
-<script>
-    $(document).ready(function() {
-      $('div').hover(function() {
-          $(this).effect('bounce', {times:3}, 500);
-      });
-  });
-</script>
   <!-- START OF EDUCATION SECTION -->
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-4 col" id="edu">
-        <h2>Education</h2>
-          <h3>Full Stack Web Development</h3>
+        <h2>.education</h2>
+        <div id="codeimgedu">
+          <div class="curlybraceopen">
+            <h3>{</h3>
+          </div>
+            <img src="img/screenshotedu.png" alt="">
+            <div class="curlybraceclose">
+              <h3>}</h3>
+            </div>
+          </div>
+        <div id="eduinfo">
+          <h3>#fullStackWebDevelopment</h3>
           <h4>Austin Coding Academy - 2017-Present</h4>
           <div class="container-fluid"></div>
-            <div class="row">
-              <div class="col-md-4">
-                <h5>Proficient in:</h5>
-                <ul>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap</li>
-                  <li>Responsive Web Design</li>
-                </ul>
+              <div class="row">
+                <div class="col-md-4">
+                  <h5>Proficient in:</h5>
+                  <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>Responsive Web Design</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>Sufficient in:</h5>
+                  <ul>
+                    <li> Javascript</li>
+                    <li>Jquery</li>
+                    <li>Bootstrap</li>
+                  </ul>
+                </div>
+                <div class="col-md-4">
+                  <h5>Learning:</h5>
+                  <ul>
+                    <li>React</li>
+                    <li>AJAX</li>
+                    <li>Redux</li>
+                    <li>MongoDB</li>
+                  </ul>
+                </div>
               </div>
-              <div class="col-md-4">
-                <h5>Sufficient in:</h5>
-                <ul>
-                  <li> Javascript</li>
-                  <li>Jquery</li>
-                  <li>Bootstrap</li>
-                </ul>
-              </div>
-              <div class="col-md-4">
-                <h5>Learning:</h5>
-                <ul>
-                  <li>React</li>
-                  <li>AJAX</li>
-                  <li>Redux</li>
-                  <li>MongoDB</li>
-                </ul>
-              </div>
+            </br>
+            <div id="collegestuff">
+              <h3>#BachelorsOfPsychology-CumLaude</h3>
+              <h4>Texas State University, San Marcos - 2011</h4>
+              <h5>Texas State GPA: 3.52</h5>
+              <h5>Minor in Political Science</h5>
+              <h5>Studied Abroad in London, UK</h5>
             </div>
-          </br>
-            <h3>B.S. of Psychology, Cum Laude</h3>
-            <h4>Texas State University, San Marcos - 2011</h4>
-            <h5>Texas State GPA: 3.52</h5>
-            <h5>Minor in Political Science</h5>
-            <h5>Studied Abroad in London, UK</h5>
           </div>
+        </div>
 
 <!-- START OF WORK EXPERIENCE SECTION -->
       <div class="col-md-4 col" id="work">
-        <h2>Relevant Work Experience</h2>
-        <h3>Accountant I</h3>
-        <h4>Texas State Securities Board - 2016-Present</h4>
-
-          <h6>Promoted from Clerk to Accountant within 4 months.</h6>
-
-        <h3>Social Media Manager</h3>
-        <h4>Workers Defense Project - 2015</h4>
-        <div class="container-fluid"></div>
-          <div class="row">
-            <div class="col-md-6">
-              <h5>Proficient in:</h5>
-              <ul>
-                <li>Facebook</li>
-                <li>Twitter</li>
-                <li>Hootsuite</li>
-              </ul>
-            </div>
-            <div class="col-md-6">
-              <h5>Sufficient in:</h5>
-              <ul>
-                <li>Press Releases</li>
-                <li>Video Editing</li>
-                <li>Email Marketing</li>
-              </ul>
+        <h2>.relevantWorkExperience</h2>
+        <div id="codeimgwork">
+          <div class="curlybraceopen">
+            <h3>{</h3>
+          </div>
+            <img src="img/screenshot1.png" alt="">
+            <div class="curlybraceclose">
+              <h3>}</h3>
             </div>
           </div>
+        <div id="workexperienceinfo">
+          <h3>#accountant</h3>
+          <h4>Texas State Securities Board - 2016-Present</h4>
+          <h5>Promoted from Clerk to Accountant within 4 months.</h5>
+          <h3>#socialMediaManager</h3>
+          <h4>Workers Defense Project - 2015</h4>
+          <div class="container-fluid"></div>
+            <div class="row">
+              <div class="col-md-6">
+                <h5>Proficient in:</h5>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Hootsuite</li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5>Sufficient in:</h5>
+                <ul>
+                  <li>Press Releases</li>
+                  <li>Video Editing</li>
+                  <li>Email Marketing</li>
+                </ul>
+              </div>
+            </div>
 
-        <h3>Owner & GM</h3>
-        <h4>Goldis Sausage Company - 2013-2015</h4>
-        <ul>
-          <li>Conceptualized, created, and managed a business by myself.</li>
-          <li>Managed 9 employees over 2 years</li>
-          <li>Worked many 70-90 hour weeks back-to-back</li>
-        </ul>
+          <h3>#owner, #generalManager</h3>
+          <h4>Goldis Sausage Company - 2013-2015</h4>
+          <ul>
+            <li>Conceptualized, created, and managed a business by myself.</li>
+            <li>Managed 9 employees over 2 years</li>
+            <li>Worked many 70-90 hour weeks back-to-back</li>
+          </ul>
+        </div>
       </div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
-</script>
-
-<script>
-
-  $(document).ready(function(){
-      $(document).ready(function(){
-          $("#webdevinfo").hide();
-      });
-      $("#webdev").hover(function(){
-          $("#webdevinfo").show('slideIn');
-      });
-    });
-
-  $(document).ready(function(){
-      $(document).ready(function(){
-          $("#codeimg").show();
-      });
-      $("#codeimg").hover(function(){
-          $("#codeimg").hide('slideIn');
-      });
-    });
-
-  $(document).ready(function(){
-      $(document).ready(function(){
-          $("#trans").hide();
-      });
-      $("#webdev").hover(function(){
-          $("#trans").show();
-      });
-    });
-</script>
 
 <!-- START OF WEB DEV SECTION -->
       <div class="col-md-4 col"id="webdev">
-        <h2>Web Development Projects</h2>
+        <h2>.webDevelopmentProjects</h2>
         <div class="container-fluid"></div>
           <div class="row">
-            <div id="codeimg"><img src="https://d2gg9evh47fn9z.cloudfront.net/thumb_COLOURBOX10725277.jpg" alt=""></div>
+            <div id="codeimg">
+              <div class="curlybraceopen">
+                <h3>{</h3>
+              </div>
+                <img src="img/screenShotTicTacToe.png" alt="">
+                <div class="curlybraceclose">
+                  <h3>}</h3>
+                </div>
+              </div>
             <div id="webdevinfo">
               <div class="col-md-4">
-                <h3>Tic Tac Toe</h3>
+                <h3>#ticTacToe</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -165,7 +247,7 @@
                 </ul>
               </div>
               <div class="col-md-4">
-                <h3>Portfolio</h3>
+                <h3>#portfolio</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -175,7 +257,7 @@
                 </ul>
               </div>
               <div class="col-md-4">
-                <h3>Winery Website</h3>
+                <h3>#winerySite</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -185,19 +267,38 @@
             </div>
           </div>
           <!-- START OF TRANSFERABLE SKILLS SECTION -->
-          <h2 id="skills">Transferable Skills</h2>
-          <div id="trans">
-            <h5>Great Communicator</h5>
-            <h5>Business Analysis</h5>
-            <h5>Empathetic Manager</h5>
-            <h5>Social Media Savvy</h5>
-            <h5>Detail Oriented</h5>
-            <h5>Always Excited to Learn</h5>
+          <h2 id="skills">.transferableSkills</h2>
+          <div id="codeimg2">
+            <div class="curlybraceopen">
+              <h3>{</h3>
+            </div>
+              <img src="img/screenShotTrans2.png" alt="">
+              <div class="curlybraceclose">
+                <h3>}</h3>
+              </div>
+            </div>
+            <div id="transinfo">
+              <h5>Great Communicator</h5>
+              <h5>Business Analysis</h5>
+              <h5>Empathetic Manager</h5>
+              <h5>Social Media Savvy</h5>
+              <h5>Detail Oriented</h5>
+              <h5>Always Excited to Learn</h5>
+            </div>
           </div>
         </div>
       </div>
   </div>
 </main>
+
+<footer>
+  <div class="container-fluid"></div>
+    <div class="row">
+      <div class="col-md-12">
+      </div>
+    </div>
+  </div>
+</footer>
 
 
 <!-- these are my JavaScript files -->

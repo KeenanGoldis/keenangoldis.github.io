@@ -1,41 +1,50 @@
 html{
-  background-image: url("http://cdn.wallpapersafari.com/3/24/kxJG7v.jpg");
-  background-size: cover;
-}
-
-body{
+background-color: black;
 }
 
 header{
   background-color: #34FFAA;
-  background-image: url("http://cdn.wallpapersafari.com/3/24/kxJG7v.jpg");
+  background-image: url("img/headerimg2.png");
   background-size: cover;
+  background-position: center;
   text-align: center;
-  height: 150px;
+  height: 100px;
+}
+footer{
+  background-color: #34FFAA;
+  background-image: url("img/footer.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 100px;
 }
 
 .col h2{
   font-size: 34px;
   text-align: center;
   font-family: 'Righteous', cursive;
-  color: lightyellow;
+  color: #A8307C;
 }
 .col h4{
   font-size: 18px;
   text-align: center;
+  color: #1F72E3;
 }
 .col h3{
   font-size: 28px;
   margin-top: 40px;
   text-align: center;
+  color: orange;
 }
 .col h5{
   font-size: 16px;
   text-align: center;
+  color: #888888;
 }
 .col h6{
   font-size: 14px;
   text-align: center;
+  color: #888888;
 }
 .col ul{
   text-align: center;
@@ -43,12 +52,54 @@ header{
 .col li{
   text-align: center;
   text-decoration: none;
+  color: #2EB46A;
+  font-weight: bold;
+}
+
+#collegestuff h5{
+  color: #2EB46A;
+}
+
+.curlybraceopen{
+  margin-top: -30px;
+  margin-bottom: 0px;
+}
+.curlybraceclose{
+  margin-top: -40px;
+  margin-bottom: -60px;
+}
+
+#codeimg img{
+  padding-left: 19%;
+  width: 480px;
+  height: 150px;
+}
+#codeimg2 img{
+  padding-left: 19%;
+  width: 480px;
+  height: 200px;
+}
+#codeimgwork img{
+  padding-left: 19%;
+  width: 480px;
+  height: 500px;
+}
+#codeimgedu img{
+  padding-left: 19%;
+  width: 480px;
+  height: 500px;
 }
 
 #skills{
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
+#transinfo h5{
+  color: #2EB46A;
+}
+#transinfo{
+  color: #2EB46A;
+}
 header span{
   padding-left: 3%;
   padding-right: 3%;
@@ -61,17 +112,17 @@ main{
 }
 
 .col{
-  height: 600px;
+  height: 700px;
 }
 
 #edu{
-  background-color: #AFCFFF;
+  background-color: black;
 }
 #work{
-  background-color: #9DBAE5;
+  background-color: black;
 }
 #webdev{
-  background-color: #34FFAA;
+  background-color: black;
 }
 #transkills{
   text-align: center;
