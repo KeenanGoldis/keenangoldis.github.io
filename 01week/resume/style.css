@@ -3,24 +3,20 @@ background-color: black;
 }
 
 header{
-  background-color: #34FFAA;
   background-image: url("img/headerimg2.png");
   background-size: cover;
   background-position: center;
-  text-align: center;
   height: 100px;
 }
 footer{
-  background-color: #34FFAA;
   background-image: url("img/footer.png");
   background-size: cover;
   background-position: center;
-  text-align: center;
   height: 100px;
 }
 
 .col h2{
-  font-size: 34px;
+  font-size: 44px;
   text-align: center;
   font-family: 'Righteous', cursive;
   color: #A8307C;
@@ -31,10 +27,17 @@ footer{
   color: #1F72E3;
 }
 .col h3{
-  font-size: 28px;
+  font-size: 32px;
   margin-top: 40px;
   text-align: center;
   color: orange;
+}
+
+#smm h3{
+  margin-top: 70px;
+}
+#ogm h3{
+  margin-top: 70px;
 }
 .col h5{
   font-size: 16px;
@@ -54,6 +57,7 @@ footer{
   text-decoration: none;
   color: #2EB46A;
   font-weight: bold;
+  list-style-type: none;
 }
 
 #collegestuff h5{
@@ -126,4 +130,111 @@ main{
 }
 #transkills{
   text-align: center;
+}
+
+
+@media all and (max-width: 1650px) {
+
+  .col h2{
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #A8307C;
+  }
+  .col h4{
+    font-size: 18px;
+    text-align: center;
+    color: #1F72E3;
+  }
+  .col h3{
+    font-size: 26px;
+    margin-top: 40px;
+    text-align: center;
+    color: orange;
+  }
+}
+@media all and (max-width: 1446px) {
+
+  .col h2{
+    font-size: 34px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #A8307C;
+  }
+  .col h4{
+    font-size: 16px;
+    text-align: center;
+    color: #1F72E3;
+  }
+  .col h3{
+    font-size: 22px;
+    margin-top: 40px;
+    text-align: center;
+    color: orange;
+  }
+
+  header{
+    background-size: contain;
+
+  }
+  footer{
+    background-size: contain;
+  }
+}
+
+@media all and (max-width: 1270px) {
+
+  .col h2{
+    font-size: 28px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #A8307C;
+  }
+  .col h4{
+    font-size: 16px;
+    text-align: center;
+    color: #1F72E3;
+  }
+  .col h3{
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+    color: orange;
+  }
+
+  .col li{
+    text-align: center;
+    text-decoration: none;
+    color: #2EB46A;
+    font-weight: bold;
+    list-style-type: none;
+    font-size: 11px;
+  }
+
+  #collegestuff h5{
+    color: #2EB46A;
+    font-size: 11px;
+  }
+
+}
+
+@media all and (max-width: 1000px) {
+
+  .col h2{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: #A8307C;
+  }
+  .col h4{
+    font-size: 16px;
+    text-align: center;
+    color: #1F72E3;
+  }
+  .col h3{
+    font-size: 18px;
+    margin-top: 40px;
+    text-align: center;
+    color: orange;
+  }
 }
