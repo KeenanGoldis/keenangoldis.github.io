@@ -19,7 +19,7 @@ footer{
   font-size: 44px;
   text-align: center;
   font-family: 'Righteous', cursive;
-  color: #A8307C;
+  color: #C76DE0;
 }
 .col h4{
   font-size: 18px;
@@ -39,25 +39,48 @@ footer{
 #ogm h3{
   margin-top: 70px;
 }
+
+#GSC li{
+    text-align: left;
+    text-decoration: none;
+    color: #2EB46A;
+    font-weight: normal;
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 5%;
+}
+
 .col h5{
   font-size: 16px;
   text-align: center;
   color: #888888;
 }
+
+#gpa h5{
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .col h6{
   font-size: 14px;
-  text-align: center;
+  text-align: left;
   color: #888888;
 }
 .col ul{
   text-align: center;
 }
 .col li{
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   color: #2EB46A;
   font-weight: bold;
   list-style-type: none;
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.proficient li{
+  padding-left: 50px;
 }
 
 #collegestuff h5{
@@ -100,6 +123,7 @@ footer{
 
 #transinfo h5{
   color: #2EB46A;
+  line-height: 1.5;
 }
 #transinfo{
   color: #2EB46A;
