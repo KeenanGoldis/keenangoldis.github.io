@@ -329,6 +329,35 @@ background-image:  url("../img/2ndsausagecornersflip.png");
 
 /*-------------END OF WINERY SECTION ---------------*/
 
+/*START OF TIC TAC TOE SECTION!*/
+
+#tic{
+  background-image: url("https://media.timeout.com/images/101578335/image.jpg");
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top: 10px solid;
+  border-color: black;
+}
+
+#ticpage h2{
+  text-align: center;
+  font-size: 100px;
+  color: blue;
+  margin-top: 10%;
+  font-family: 'Italianno', cursive;
+  font-size: 120px;
+}
+#ticpage h4{
+  text-align: center;
+  font-size: 100px;
+  color: red;
+  font-family: 'Italianno', cursive;
+  font-size: 66px;
+}
+
+/*END OF TIC TAC TOE SECTION*/
 /*START OF DEL'S LEMONDADE*/
 
 #dels{
@@ -358,36 +387,6 @@ background-image:  url("../img/2ndsausagecornersflip.png");
 }
 
 /*---------------END OF DELS SECTION---------------------*/
-/*START OF TIC TAC TOE SECTION!*/
-
-#tic{
-  background-image: url("https://media.timeout.com/images/101578335/image.jpg");
-  height: 800px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  border-top: 10px solid;
-  border-color: black;
-}
-
-
-#ticpage h2{
-  text-align: center;
-  font-size: 100px;
-  color: red;
-  margin-top: 37%;
-  font-family: 'Italianno', cursive;
-  font-size: 120px;
-}
-#ticpage h4{
-  text-align: center;
-  font-size: 100px;
-  color: red;
-  font-family: 'Italianno', cursive;
-  font-size: 66px;
-}
-
-/*END OF TIC TAC TOE SECTION*/
 
 /*START OF CONTACT SECTION!*/
 
