@@ -140,7 +140,7 @@ main{
 }
 
 .col{
-  height: 700px;
+  height: 650px;
 }
 
 #edu{
@@ -156,6 +156,20 @@ main{
   text-align: center;
 }
 
+.row{
+  background-color: black;
+}
+.footcol{
+  margin-top: 0px;
+  background-color: black;
+  height: 30px;
+  padding-top: 0px;
+  text-align: center;
+}
+
+.footcol h3{
+  color: #444444;
+}
 
 @media all and (max-width: 1650px) {
 
@@ -163,7 +177,7 @@ main{
     font-size: 38px;
     text-align: center;
     font-family: 'Righteous', cursive;
-    color: #A8307C;
+    color: #C76DE0;
   }
   .col h4{
     font-size: 18px;
@@ -176,14 +190,30 @@ main{
     text-align: center;
     color: orange;
   }
+
+  .col li{
+    font-size: 16px;
+  }
+
+  #collegestuff h5{
+    font-size: 16px;
+  }
+
+  .footcol{
+    margin-top: 0px;
+    background-color: black;
+    height: 30px;
+    padding-top: 0px;
+    text-align: center;
+  }
 }
-@media all and (max-width: 1446px) {
+@media all and (max-width: 1470px) {
 
   .col h2{
     font-size: 34px;
     text-align: center;
     font-family: 'Righteous', cursive;
-    color: #A8307C;
+    color: #C76DE0;
   }
   .col h4{
     font-size: 16px;
@@ -195,6 +225,14 @@ main{
     margin-top: 40px;
     text-align: center;
     color: orange;
+  }
+
+  .col li{
+    font-size: 14px;
+  }
+
+  #collegestuff h5{
+    font-size: 14px;
   }
 
   header{
@@ -212,7 +250,7 @@ main{
     font-size: 28px;
     text-align: center;
     font-family: 'Righteous', cursive;
-    color: #A8307C;
+    color: #C76DE0;
   }
   .col h4{
     font-size: 16px;
@@ -242,23 +280,175 @@ main{
 
 }
 
-@media all and (max-width: 1000px) {
+/*Tablet View*/
+
+@media all and (max-width: 991px) {
+
+  .col{
+    min-height: 700px;
+  }
+
+  #work{
+    height: 850px;
+  }
+
+  #webdev{
+    height: 850px;
+  }
 
   .col h2{
-    font-size: 24px;
-    text-align: center;
-    font-family: 'Righteous', cursive;
-    color: #A8307C;
+    font-size: 80px;
+    color: #C76DE0;
   }
-  .col h4{
-    font-size: 16px;
-    text-align: center;
-    color: #1F72E3;
-  }
+
   .col h3{
-    font-size: 18px;
-    margin-top: 40px;
+    font-size: 40px;
+    margin-top: 30px;
     text-align: center;
     color: orange;
   }
+
+  .col h4{
+    font-size: 22px;
+    text-align: center;
+    color: #1F72E3;
+  }
+
+  .col li{
+    color: #2EB46A;
+    font-size: 18px;
+  }
+
+  #GSC li{
+      text-align: center;
+      color: #2EB46A;
+      line-height: 2;
+      padding-left: 5%;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  #collegestuff h5{
+    color: #2EB46A;
+    font-size: 18px;
+  }
+
+  .col h5{
+    font-size: 22px;
+    text-align: center;
+    color: #888888;
+  }
+
+  #gpa h5{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .col h6{
+    font-size: 22px;
+    text-align: center;
+    color: #888888;
+  }
+
+  header{
+    background-image: url("img/headerimg2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-color: black;
+  }
+
+  footer{
+    background-image: url("img/footer.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100px;
+  }
+}
+
+/*Smart Phone View NOT DONE YET! GET SLEEP, THEN COFFEE!*/
+
+@media all and (max-width: 420px) {
+
+
+  #work{
+    height: 850px;
+  }
+
+  #webdev{
+    height: 850px;
+  }
+
+  .col h2{
+    font-size: 80px;
+    color: #C76DE0;
+  }
+
+  .col h3{
+    font-size: 46px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .col h4{
+    font-size: 320px;
+    text-align: center;
+    color: #1F72E3;
+  }
+
+  .col li{
+    color: #2EB46A;
+    font-size: 18px;
+  }
+
+  #GSC li{
+      text-align: center;
+      color: #2EB46A;
+      line-height: 2;
+      padding-left: 5%;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  #collegestuff h5{
+    color: #2EB46A;
+    font-size: 18px;
+  }
+
+  .col h5{
+    font-size: 22px;
+    text-align: center;
+    color: #888888;
+  }
+
+  #gpa h5{
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .col h6{
+    font-size: 22px;
+    text-align: center;
+    color: #888888;
+  }
+
+  header{
+    background-image: url("img/headerimg2.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100px;
+    background-color: black;
+  }
+
+  footer{
+    background-image: url("img/footer.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100px;
+  }
+
 }

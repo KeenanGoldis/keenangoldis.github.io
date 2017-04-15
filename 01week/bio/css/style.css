@@ -19,7 +19,7 @@ body{
     opacity: 50%;
 }
 .affix {
-  top:100px;
+  top: 0px;
   left: 5px;
 }
 
@@ -51,7 +51,6 @@ body{
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 20px;
-  padding-top:20px;
   margin-top:-9px;
   font-family: 'Acme', sans-serif;
   font-size: 16px;
