@@ -140,7 +140,7 @@ main{
 }
 
 .col{
-  height: 650px;
+  height: 750px;
 }
 
 #edu{
@@ -160,7 +160,7 @@ main{
   background-color: black;
 }
 .footcol{
-  margin-top: 0px;
+  margin-top: 50px;
   background-color: black;
   height: 30px;
   padding-top: 0px;
@@ -173,6 +173,9 @@ main{
 
 @media all and (max-width: 1650px) {
 
+  .col{
+    height: 700px;
+  }
   .col h2{
     font-size: 38px;
     text-align: center;
@@ -284,9 +287,9 @@ main{
 
 @media all and (max-width: 991px) {
 
-  .col{
-    min-height: 700px;
-  }
+  /*.col{
+    min-height: 750px;
+  }*/
 
   #work{
     height: 850px;
@@ -366,6 +369,11 @@ main{
     background-repeat: no-repeat;
     height: 100px;
   }
+
+  .footcol{
+    margin-top: 20px;
+  }
+
 }
 
 /*Smart Phone View NOT DONE YET! GET SLEEP, THEN COFFEE!*/
