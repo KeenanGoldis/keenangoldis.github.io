@@ -297,7 +297,7 @@ main{
   }
 
   .col h2{
-    font-size: 80px;
+    font-size: 60px;
     color: #C76DE0;
   }
 
@@ -377,12 +377,31 @@ main{
 
 }
 
+@media all and (max-width: 750px){
+  .col h2{
+    font-size: 50px;
+    color: #C76DE0;
+  }
+}
+
 @media all and (max-width: 614px){
 
   #webdev{
     height: 950px;
   }
 
+  .col h2{
+    font-size: 52px;
+    color: #C76DE0;
+    font-family: 'Medula One', cursive;
+  }
+
+  .col h3{
+    font-size: 38px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Medula One', cursive;
+  }
 
 /*I-Phone View */
 
