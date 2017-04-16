@@ -287,9 +287,6 @@ main{
 
 @media all and (max-width: 991px) {
 
-  /*.col{
-    min-height: 750px;
-  }*/
 
   #work{
     height: 850px;
@@ -353,6 +350,10 @@ main{
     color: #888888;
   }
 
+  .footcol h3{
+    color: #888888;
+  }
+
   header{
     background-image: url("img/headerimg2.png");
     background-size: contain;
@@ -376,13 +377,20 @@ main{
 
 }
 
-/*Smart Phone View NOT DONE YET! GET SLEEP, THEN COFFEE!*/
+@media all and (max-width: 614px){
 
-@media all and (max-width: 420px) {
+  #webdev{
+    height: 950px;
+  }
+
+
+/*I-Phone View */
+
+@media all and (max-width: 430px) {
 
 
   #work{
-    height: 850px;
+    height: 950px;
   }
 
   #webdev{
@@ -390,57 +398,75 @@ main{
   }
 
   .col h2{
-    font-size: 80px;
+    font-size: 46px;
     color: #C76DE0;
+    font-family: 'Medula One', cursive;
   }
 
   .col h3{
-    font-size: 46px;
+    font-size: 36px;
     margin-top: 20px;
     text-align: center;
+    font-family: 'Medula One', cursive;
   }
 
   .col h4{
-    font-size: 320px;
+    font-size: 20px;
     text-align: center;
     color: #1F72E3;
+
   }
 
   .col li{
     color: #2EB46A;
-    font-size: 18px;
+    font-size: 14px;
+    text-align: left;
   }
 
   #GSC li{
       text-align: center;
       color: #2EB46A;
       line-height: 2;
-      padding-left: 5%;
-      font-size: 18px;
+      padding-left: 0%;
+      font-size: 14px;
       font-weight: bold;
+      text-align: left;
   }
 
   #collegestuff h5{
     color: #2EB46A;
-    font-size: 18px;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 20%;
   }
 
   .col h5{
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     color: #888888;
   }
 
   #gpa h5{
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
   }
 
   .col h6{
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
     color: #888888;
   }
+
+  .footcol h3{
+  font-size: 28px;
+  font-family: 'Medula One', cursive;
+}
+
+#transinfo h5{
+  color: #2EB46A;
+  line-height: 1.5;
+  font-size: 14px;
+}
 
   header{
     background-image: url("img/headerimg2.png");
