@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sausages of Hanoi</title>
+  <!-- <link rel="stylesheet" href="css/style.css"> -->
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+
+<!--bootstrap CSS-->
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <main>
+    <h1>The Sausages of Hanoi</h1>
+    <h2>The Smallest Sausages Must be Eaten First!</h2>
+    <div class="skewers">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 responsive-img">
+            <div class ="stacks" id="a">
+              <div class ="piece" id='smallest'>
+                "1"
+              </div>
+              <div class ="piece" id='secSmallest'>
+                "2"
+              </div>
+              <div class ="piece" id='thirdSmallest'>
+                "3"
+              </div>
+              <div class ="piece" id="biggest">
+                "4"
+              </div>
+              <img src="http://pngimg.com/uploads/fork/fork_PNG3069.png" alt="fork">
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 responsive-img">
+            <div class ="stacks" id="b">
+              <img src="http://pngimg.com/uploads/fork/fork_PNG3069.png">
+            </div>
+          </div>
+
+          <div class="col-md-4 col-sm-4 responsive-img">
+            <div class ="stacks" id="c">
+              <img src="http://pngimg.com/uploads/fork/fork_PNG3069.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="announce-winner"></div>
+    <button id="clear">Clear Board</button>
+  </main>
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<script>
+'use strict';
+
+const assert = require('assert');
+const readline = require('readline');
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+var stacks = {
+  a: [4, 3, 2, 1],
+  b: [],
+  c: []
+};
+
+
+
+function printStacks() {
+  console.log("a: " + stacks.a);
+  console.log("b: " + stacks.b);
+  console.log("c: " + stacks.c);
+}
+
+function movePiece(startStack, endStack) {
+  var piece = stacks[startStack].pop();
+  stacks[endStack].push(piece);
+};
+
+function isLegal(startStack, endStack) {
+  var lengthStart = stacks[startStack].length;
+  var lengthEnd = stacks[endStack].length;
+  var start = stacks[startStack][lengthStart-1];
+  var end = stacks[endStack][lengthEnd-1];
+
+  if (start < end || end === undefined) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
+function checkForWin(endStack) {
+  if ((stacks.b.length === 4) || stacks.c.length === 4) {
+    return true;
+  }
+  else {
+    return false;
+  }
+};
+
+function towersOfHanoi(startStack, endStack) {
+  if(isLegal(startStack,endStack)){
+    movePiece(startStack,endStack);
+    checkForWin(endStack);
+  }
+};
+
+function getPrompt() {
+  printStacks();
+  rl.question('start stack: ', (startStack) => {
+    rl.question('end stack: ', (endStack) => {
+      towersOfHanoi(startStack, endStack);
+      getPrompt();
+    });
+  });
+}
+
+getPrompt();
+// Tests
+
+// if (typeof describe === 'function') {
+//
+//   describe('#towersOfHanoi()', () => {
+//     it('should be able to move a block', () => {
+//       towersOfHanoi('a', 'b');
+//       assert.deepEqual(stacks, { a: [4, 3, 2], b: [1], c: [] });
+//     });
+//   });
+//
+//   describe('#isLegal()', () => {
+//     it('should not allow an illegal move', () => {
+//       stacks = {
+//         a: [4, 3, 2],
+//         b: [1],
+//         c: []
+//       };
+//       assert.equal(isLegal('a', 'b'), false);
+//     });
+//     it('should allow a legal move', () => {
+//       stacks = {
+//         a: [4, 3, 2, 1],
+//         b: [],
+//         c: []
+//       };
+//       assert.equal(isLegal('a', 'c'), true);
+//     });
+//   });
+//   describe('#checkForWin()', () => {
+//     it('should detect a win', () => {
+//       stacks = { a: [], b: [4, 3, 2, 1], c: [] };
+//       assert.equal(checkForWin(), true);
+//       stacks = { a: [1], b: [4, 3, 2], c: [] };
+//       assert.equal(checkForWin(), false);
+//     });
+//   });
+// } else {
+//
+//   getPrompt();
+//
+// }
+</script>
+
+</body>
+</html>

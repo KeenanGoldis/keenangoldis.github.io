@@ -3,6 +3,11 @@
   src:url("../fonts/Nice Dream Come True.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "tacos";
+  src:url("../fonts/TACOSRG_2.TTF") format("truetype");
+}
+
 h4{
   font-family: smokeyFont;
   font-size: 42px;
@@ -104,15 +109,16 @@ nav li{
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
     color: white !important;
     background-color: #800000;
-    opacity: 50%;
-
 }
 
+#topNavSausage{
+  margin-bottom: 3.5px;
+}
 
 #mystorysausage0{
-  background-image:  url("../img/2ndsausagecornersflip.png");
-  height: 50px;
-  width:110px;
+  background-image: url("../img/2ndsausagecornersflip.png");
+  height: 55px;
+  width: 121px;
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 20px;
@@ -123,52 +129,52 @@ nav li{
   color: #900000;
 }
 #mystorysausage{
-  background-image:  url("../img/2ndsausagecorners.png");
-  height: 50px;
-  width:110px;
+  background-image: url("../img/2ndsausagecorners.png");
+  height: 55px;
+  width: 121px;
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 20px;
-  padding-top:20px;
+  padding-top: 20px;
   margin-top: -4px;
   font-family: 'Acme', sans-serif;
   font-size: 16px;
   color: #900000;
 }
 #mystorysausage1{
-  background-image:  url("../img/2ndsausagecorners.png");
-  height: 50px;
-  width:110px;
+  background-image: url("../img/2ndsausagecorners.png");
+  height: 55px;
+  width: 121px;
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 20px;
-  padding-top:20px;
+  padding-top: 20px;
   margin-top: -4px;
   font-family: 'Acme', sans-serif;
   font-size: 16px;
   color: #900000;
 }
 #mystorysausage2{
-  background-image:  url("../img/2ndsausagecornersflip.png");
-  height: 50px;
-  width:110px;
+  background-image: url("../img/2ndsausagecornersflip.png");
+  height: 55px;
+  width: 121px;
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 20px;
-  padding-top:20px;
+  padding-top: 20px;
   margin-top: -4px;
   font-family: 'Acme', sans-serif;
   font-size: 16px;
   color: #900000;
 }
 #mystorysausage3{
-  background-image:  url("../img/2ndsausagecorners.png");
-  height: 50px;
-  width:110px;
+  background-image: url("../img/2ndsausagecorners.png");
+  height: 55px;
+  width: 121px;
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 20px;
-  padding-top:20px;
+  padding-top: 20px;
   margin-top: -5px;
   font-family: 'Acme', sans-serif;
   font-size: 16px;
@@ -176,13 +182,13 @@ nav li{
 
 }
 #mystorysausage4{
-  background-image:  url("../img/2ndsausagecornersflip.png");
-  height: 50px;
-  width:110px;
+  background-image: url("../img/2ndsausagecornersflip.png");
+  height: 55px;
+  width: 121px;
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 20px;
-  padding-top:20px;
+  padding-top: 20px;
   margin-top: -5px;
   font-family: 'Acme', sans-serif;
   font-size: 16px;
@@ -332,7 +338,6 @@ nav li{
   border-color: black;
 }
 
-
 #ticpage h2{
   text-align: center;
   font-size: 100px;
@@ -394,7 +399,7 @@ nav li{
 /*START OF DEL'S LEMONDADE*/
 
 #dels{
-  background-image: url("http://free4kwallpaper.com/wp-content/uploads/2016/01/New-England-Beach-4K-Sunset-Wallpaper.jpg");
+  background-image: url("https://burlythere.files.wordpress.com/2015/07/img_0071.jpg?w=618&h=464");
   height: 900px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -417,6 +422,17 @@ nav li{
 
 #delspage h2{
   text-align: center;
+  font-size: 250px;
+  color: red;
+  font-family: tacos;
+  opacity: .5;
+}
+#delspage h3{
+  text-align: center;
+  font-size: 100px;
+  color: red;
+  font-family: tacos;
+  opacity: .5;
 }
 
 /*---------------END OF DELS SECTION---------------------*/

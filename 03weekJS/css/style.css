@@ -1,0 +1,111 @@
+html{
+  /*background-image: url("https://media.timeout.com/images/101578335/image.jpg");*/
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-color: lightblue;
+}
+
+main{
+}
+
+.a{
+  background-color: blue;
+  height: 40px;
+  width: 40px;
+}
+
+.stacks img{
+  max-width: 300px;
+}
+.stacks{
+  background-color: red;
+}
+.piece{
+    border-radius:20px;
+    -moz-box-shadow: 8px 0px 8px #333;
+    -webkit-box-shadow: 8px 0px 8px #333;
+    box-shadow: 8px 0px 8px #333;
+    height: 50px;
+    width: 100px;
+    display:block;
+
+    -moz-border-radius:75px;
+    -webkit-border-radius: 75px;
+    border-radius: 75px;
+}
+
+#smallest{
+  width: 100px;
+}
+#secSmallest{
+  width: 150px;
+}
+#thirdSmallest{
+  width: 200px;
+}
+#biggest{
+  width: 250px;
+}
+
+
+
+button{
+  margin-top: 25px;
+  background-color: gold;
+}
+
+h1{
+  color: white;
+  font-size: 62px;
+}
+h2{
+  color: white;
+  font-size: 32px;
+}
+
+
+.row {
+  clear: both;
+}
+
+#announce-winner {
+  clear: both;
+  font-size: 50px;
+  color: white;
+}
+
+.ring {
+  position: absolute;
+  background-color: green;
+  border: 1px solid #000;
+  border-radius: 25px;
+}
+.ring.moveable {
+  cursor: pointer;
+}
+.ring.moveable:hover {
+  opacity: 0.5;
+}
+.peg-container {
+  width: 200px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.peg-over {
+  background-color: yellow;
+  opacity: 0.25;
+}
+.peg-label {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  border-top: 10px solid #000;
+}
+.endStack .peg-label {
+  border-color: orange;
+}
+.stacks {
+  position: relative;
+  width: 200px;
+}
