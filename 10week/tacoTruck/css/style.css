@@ -1,0 +1,205 @@
+@font-face {
+  font-family: "tacos";
+  src:url("../fonts/TACOSRG_.TTF") format("truetype");
+}
+
+#firstRow{
+  /*background-color: orange;*/
+  background-image: url("http://www.foodanddine.com/wp-content/uploads/2016/01/tacos.jpg");
+}
+#secondRow{
+  /*background-color: orange;*/
+  background-image: url("https://www.chowstatic.com/assets/recipe_photos/11-10-14/28514_breakfast_tacos.jpg");
+}
+#thirdRow{
+  /*background-color: orange;*/
+  background-image: url("http://ppcorn.com/us/wp-content/uploads/sites/14/2016/04/Guanajuato-ppcorn.jpg");
+}
+
+body{
+  font-family: tacos;
+}
+
+.fixed-bg {
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Start of Navigation Stuff*/
+
+.nav{
+  display: flex;
+  background-color: black;
+  background-blend-mode: exclusion;
+  margin-left: -1.5%;
+  margin-right: -1.5%;
+}
+
+.navLink{
+  color: white;
+  font-family: tacos;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*Start of Top Page*/
+
+#topPage{
+  background-image:
+  url("https://burlythere.files.wordpress.com/2015/07/img_0071.jpg?w=618&h=464");
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: -10%;
+  margin-bottom: 20%;
+  height: 800px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 10px;
+  border-color: black;
+}
+
+#topPage h1{
+  padding-left: 15%;
+  font-size: 220px;
+  color: white;
+  opacity: 0.8;
+
+}
+
+/*Start of Location Page*/
+
+.locationPage{
+  /*background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX3062710.jpg");*/
+  background-color: black;
+  /*background-image: url("/colorfulWood.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background
+
+  /*background-color: darkgreen;*/
+
+  color: white;
+  height: 800px;
+  margin-bottom: 20%;
+  border-bottom: solid 10px;
+  border-top: solid 10px;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.openClosed h4{
+  color: yellow;
+  font-size: 30px;
+}
+
+
+.locationPage img{
+  max-height: 300px;
+  width: 50%;
+  border: solid 5px;
+}
+
+.hoursOfOp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: white;
+}
+
+.hoursOfOp h3{
+  font-size: 30px;
+  color: white;
+}
+
+.hoursOfOp h5{
+  font-size: 30px;
+  color: lime;
+}
+.hoursOfOp h6{
+  font-size: 26px;
+  color: white;
+  font-family: sans-serif !important;
+
+}
+
+/*Start of media Section*/
+ #media{
+   /*background-image: url("/colorfulWood2.jpg");*/
+   background-color: black;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background
+
+   /*background-color: darkgreen;*/
+
+   color: white;
+   height: 800px;
+   margin-bottom: 20%;
+   border-bottom: solid 10px;
+   border-top: solid 10px;
+   border-color: black;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;:
+ }
+
+.mediaTitle{
+  color: lime;
+  display: flex;
+  justify-content: center;
+  font-family: tacos;
+}
+
+#medLinks h6 a{
+  color: blue;
+  font-size: 40px;
+  padding-left: 15%;
+  font-family: tacos;
+
+}
+
+.mediaLinks h6 {
+  margin-top: 50px;
+}
+
+#socialMedia{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  color: white;
+}
+
+#socialMediaLinks{
+  font-size: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*End of Media Section*/
+/*Start of Our Story Section*/
+
+#about{
+  background-color: black;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#ourStory{
+  font-family: helvetica;
+}
+
+#ourStoryPics img{
+  max-width: 500px;
+}
