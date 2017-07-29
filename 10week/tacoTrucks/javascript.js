@@ -36,19 +36,19 @@ $(document).ready(function(){
 
   function highlightTodaysDay(dayDeclare){
     if(theDay === 'Sunday'){
-      $('#sun h6').css("color", "lime");
+      $('.sun h6').css("color", "lime");
     } else if(theDay === 'Monday'){
-      $('#mon h6').css("color", "lime");
+      $('.mon h6').css("color", "lime");
     } else if(theDay === 'Tuesday'){
-      $('#tue h6').css("color", "lime");
+      $('.tue h6').css("color", "lime");
     } else if(theDay === 'Wednesday'){
-      $('#wed h6').css("color", "lime");
+      $('.wed h6').css("color", "lime");
     } else if(theDay === 'Thursday'){
-      $('#thu h6').css("color", "lime");
+      $('.thu h6').css("color", "lime");
     } else if(theDay === 'Friday'){
-      $('#fri h6').css("color", "lime");
+      $('.fri h6').css("color", "lime");
     } else if(theDay === 'Saturday'){
-      $('#sat h6').css("color", "lime");
+      $('.sat h6').css("color", "lime");
     } else {
       console.log('something went wrong');
     }
@@ -167,6 +167,28 @@ $(document).ready(function(){
     }
     trailerIsOpen();
 
+    function restaurantIsOpen(){
+      if ((theDay === 'Sunday') && (theTime <='0230' || theTime >='1100')){
+        return true;
+      } else if (theDay === 'Monday'){
+        return false;
+      } else if ((theDay === 'Tuesday') && (theTime >='1700')){
+        return true;
+      } else if ((theDay === 'Wednesday') && (theTime >='1700')){
+        return true;
+      } else if ((theDay === 'Thursday') && (theTime >='1700')){
+        return true;
+      } else if ((theDay === 'Friday') && (theTime <='0230'||theTime >='1700')){
+        return true;
+      } else if ((theDay === 'Saturday') && (theTime <='0230'||theTime >='1700')){
+        return true;
+      } else {
+        return false;
+      }
+    }
+    restaurantIsOpen();
+
+//food truck
     function yesWeAreOpen(){
       if (trailerIsOpen = true){
           $("#closedTrailer").hide();
@@ -176,6 +198,16 @@ $(document).ready(function(){
       }
     }
     yesWeAreOpen();
+//restaurant
+    function yesRestaurantIsOpen(){
+      if (restaurantIsOpen = true){
+          $("#closedRest").hide();
+        }
+      else if (restaurantIsOpen = false){
+        $("#openRest").hide();
+      }
+    }
+    yesRestaurantIsOpen();
 
   }
   hourMinDeclare();

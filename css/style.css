@@ -13,7 +13,6 @@ h4{
   font-size: 42px;
 }
 
-
 h1{
   font-family: smokeyFont;
 }
@@ -29,7 +28,7 @@ a{
 #ticinhead a:hover h1{
   color: gold;
 }
-#delsinhead a:hover h1{
+#tacoInHead a:hover h1{
   color: gold;
 }
 #bioinhead a:hover h1{
@@ -77,10 +76,6 @@ main{
   border-color: black;
 }
 
-header{
-
-}
-
 h1{
   color: white;
   font-size: 50px;
@@ -88,18 +83,17 @@ h1{
 }
 
 .affix {
-      top:0px;
-      left: 0px;
+    top:0px;
+    left: 0px;
   }
 .fullscreen-bg {
-    position: relative;
-
-    overflow: hidden;
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    z-index: 0;
+  position: relative;
+  overflow: hidden;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  z-index: 0;
 }
 
 nav li{
@@ -199,53 +193,58 @@ nav li{
 /*START OF HEADER*/
 
 #header{
-      animation-delay:11s;
-      animation-duration: 10s;
+    animation-delay:11s;
+    animation-duration: 10s;
   }
 
 #header h1{
   color: white;
 }
 
-#delsinhead{
-      position: absolute;
-      left: 45%;
-      top: 425px;
-      z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
+#tacoInHead{
+  position: absolute;
+  left: 45%;
+  top: 425px;
+  z-index: 2;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
 }
 #vineinhead{
-      position: absolute;
-      left: 21%;
-      top: 300px;
-      z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
+  position: absolute;
+  left: 21%;
+  top: 300px;
+  z-index: 2;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
 }
 #ticinhead{
-      position: absolute;
-      left: 25%;
-      top: 425px;
-      z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
+  position: absolute;
+  left: 25%;
+  top: 425px;
+  z-index: 2;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
 }
 #bioinhead{
-      position: absolute;
-      left: 35%;
-      top: 650px;
-      z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
+  position: absolute;
+  left: 35%;
+  top: 650px;
+  z-index: 2;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
 }
 #resumeinhead{
-      position: absolute;
-      left: 30%;
-      top: 550px;
-      z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
+  position: absolute;
+  left: 30%;
+  top: 550px;
+  z-index: 2;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
 }
 
 /*---------START OF THE ABOUT SECTION------------*/
@@ -413,21 +412,21 @@ nav li{
 
 }
 
-#delspage img{
+#tacoPage img{
   margin-left: 40%;
   margin-top: 10%;
   animation-duration: 5s;
 
 }
 
-#delspage h2{
+#tacoPage h2{
   text-align: center;
   font-size: 250px;
   color: red;
   font-family: tacos;
   opacity: .5;
 }
-#delspage h3{
+#tacoPage h3{
   text-align: center;
   font-size: 100px;
   color: red;
@@ -441,12 +440,10 @@ nav li{
 
 #contact{
   background-color: maroon;
-  /*background-image: url(");*/
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 
 #contact1{
@@ -457,22 +454,19 @@ nav li{
   padding-left: 50%;
   margin-top: -1%;
 }
-
 #contactpage h2{
   text-align: center;
   font-size: 100px;
   margin-top: 40%;
 }
-
 #contact button{
-background-color: maroon;
-height: 75px;
-width: 200px;
-font-family: Acme;
-font-size: 50px;
-border: none;
+  background-color: maroon;
+  height: 75px;
+  width: 200px;
+  font-family: Acme;
+  font-size: 50px;
+  border: none;
 }
-
 #contact1 a{
   padding-right: 10%;
 }
@@ -489,7 +483,6 @@ border: none;
 }*/
 @media all and (max-width: 1500px) {
   #abouttitlespic{
-
     padding-left: 32%;
     margin-top: -11.75%;
     opacity: 70%;
@@ -512,16 +505,14 @@ border: none;
 @media all and (max-width: 1350px) {
 /*HEADER BEGINS*/
   #ticinhead{
-
-        position: absolute;
-        left: 20%;
-        top: 425px;
-        z-index: 2;  justify-content: center;
+    position: absolute;
+    left: 20%;
+    top: 425px;
+    z-index: 2;  justify-content: center;
     padding: 0;
     margin: 0px;
   }
 }
-
 
 @media all and (max-width: 1050px) {
 
@@ -542,8 +533,6 @@ border: none;
   #contact1 a{
     padding-right: 6%;
   }
-
-
 }
 
 @media all and (max-width: 990px) {
@@ -562,11 +551,10 @@ border: none;
 
 /*START OF TIC TAC TOE MQ*/
   #ticinhead{
-
-        position: absolute;
-        left: 12%;
-        top: 425px;
-        z-index: 2;  justify-content: center;
+    position: absolute;
+    left: 12%;
+    top: 425px;
+    z-index: 2;  justify-content: center;
     padding: 0;
     margin: 0px;
   }
@@ -582,45 +570,40 @@ border: none;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
     }
+  #winery h3{
+    font-size: 24px;
+    font-style: italic;
+    color: white;
+  }
+  #winery h2{
+    font-size: 42px;
+    color: white;
+    margin-bottom: 3%;
+  }
 
-    #winery h3{
-      font-size: 24px;
-      font-style: italic;
-      color: white;
-    }
-    #winery h2{
-      font-size: 42px;
-      color: white;
-      margin-bottom: 3%;
+  #winery p{
+    color: white;
+    margin-top: 3%;
+    font-size: 18px;
+  }
 
-    }
-
-    #winery p{
-      color: white;
-      margin-top: 3%;
-      font-size: 18px;
-    }
-
-    #winery img{
-      width: 250px;
-      opacity: 0.75;
-      margin-bottom: 3%;
-    }
-
+  #winery img{
+    width: 250px;
+    opacity: 0.75;
+    margin-bottom: 3%;
+  }
 }
 
 @media all and (max-width: 768px) {
 
-
   .fullscreen-bg {
-      position: relative;
-
-      overflow: hidden;
-      height: 600px;
-      display: flex;
-      justify-content: center;
-      background-color: black;
-      z-index: 0;
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    z-index: 0;
   }
   /*START OF HEADER SECTION*/
 
@@ -628,107 +611,97 @@ border: none;
     color: gold;
     font-size: 40px;
   }
-    #delsinhead{
-
-          position: absolute;
-          left: 40%;
-          top: 325px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #vineinhead{
-
-          position: absolute;
-          left: 13%;
-          top: 225px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #ticinhead{
-
-          position: absolute;
-          left: 7%;
-          top: 310px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #bioinhead{
-
-          position: absolute;
-          left: 17%;
-          top: 475px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #resumeinhead{
-
-          position: absolute;
-          left: 10%;
-          top: 390px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
+  #tacoInHead{
+    position: absolute;
+    left: 40%;
+    top: 325px;
+    z-index: 2;  justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #vineinhead{
+    position: absolute;
+    left: 13%;
+    top: 225px;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #ticinhead{
+    position: absolute;
+    left: 7%;
+    top: 310px;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #bioinhead{
+    position: absolute;
+    left: 17%;
+    top: 475px;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #resumeinhead{
+    position: absolute;
+    left: 10%;
+    top: 390px;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
     /*START OF ABOUT MQ*/
-    #about h4{
-      font-family: cursive !important;
-    }
-    #about h1{
-      font-family: cursive !important;
-    }
-      .aboutheader h1{
-        font-size: 70px;
-        padding-top: 6%;
-        padding-bottom: 6%;
-      }
-      #abouttitlespic{
-        padding-left: 370px;
-        padding-bottom: 1%;
-        animation-delay: 3.25s;
-        animation-duration: 7s;
-        animation-iteration-count: infinite;
-        margin-top: -11%;
-        opacity: 70%;
-      }
+  #about h4{
+    font-family: cursive !important;
+  }
+  #about h1{
+    font-family: cursive !important;
+  }
+  .aboutheader h1{
+    font-size: 70px;
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+  #abouttitlespic{
+    padding-left: 370px;
+    padding-bottom: 1%;
+    animation-delay: 3.25s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    margin-top: -11%;
+    opacity: 70%;
+  }
 /*START OF DELS SECTION MP*/
-      #dels{
-        background-image: url("http://free4kwallpaper.com/wp-content/uploads/2016/01/New-England-Beach-4K-Sunset-Wallpaper.jpg");
-        height: 700px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        border-top: 10px solid;
-        border-color: black;
-        img.resize{
-         max-width:50%;
-         max-height:50%;
-      }
-
-      }
-
-      #delspage img{
-        margin-left: 10%;
-        margin-right:10%;
-        margin-top: 10%;
-        /*animation-duration: 5s;*/
-
-      }
-
-      #delspage h2{
-        text-align: center;
-      }
-
+  #dels{
+    background-image: url("http://free4kwallpaper.com/wp-content/uploads/2016/01/New-England-Beach-4K-Sunset-Wallpaper.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top: 10px solid;
+    border-color: black;
+    img.resize{
+      max-width:50%;
+      max-height:50%;
+    }
+  }
+  #tacoPage img{
+    margin-left: 10%;
+    margin-right:10%;
+    margin-top: 10%;
+  }
+  #tacoPage h2{
+    text-align: center;
+  }
 }
 @media all and (max-width: 620px) {
-
-
   .fullscreen-bg {
       position: relative;
-
       overflow: hidden;
       height: 300px;
       display: flex;
@@ -736,97 +709,93 @@ border: none;
       background-color: black;
       z-index: 0;
   }
-
   /*START OF HEADER SECTION*/
 
   #header h1{
     color: gold;
     font-size: 22px;
   }
-    #delsinhead{
-
-          position: absolute;
-          left: 43%;
-          top: 150px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #vineinhead{
-
-          position: absolute;
-          left: 20%;
-          top: 100px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #ticinhead{
-
-          position: absolute;
-          left: 17%;
-          top: 150px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #bioinhead{
-
-          position: absolute;
-          left: 35%;
-          top: 230px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
-    #resumeinhead{
-
-          position: absolute;
-          left: 27%;
-          top: 190px;
-          z-index: 2;  justify-content: center;
-      padding: 0;
-      margin: 0px;
-    }
+  #tacoInHead{
+    position: absolute;
+    left: 43%;
+    top: 150px;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #vineinhead{
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #ticinhead{
+    position: absolute;
+    left: 17%;
+    top: 150px;
+    z-index: 2;
+    justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #bioinhead{
+    position: absolute;
+    left: 35%;
+    top: 230px;
+    z-index: 2;  justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
+  #resumeinhead{
+    position: absolute;
+    left: 27%;
+    top: 190px;
+    z-index: 2;  justify-content: center;
+    padding: 0;
+    margin: 0px;
+  }
 /*START OF ABOUT SECTION*/
-#about{
-  background-image: url("../img/dramaticme.jpg");
-  height: 400px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  border-top: 10px solid;
-  border-color: black;
-}
+  #about{
+    background-image: url("../img/dramaticme.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-top: 10px solid;
+    border-color: black;
+  }
 
-#abouttitlespic{
-  padding-left: 135px;
-  padding-bottom: 1%;
-  animation-delay: 3.25s;
-  animation-duration: 7s;
-  animation-iteration-count: infinite;
-  visibility: hidden;
-}
+  #abouttitlespic{
+    padding-left: 135px;
+    padding-bottom: 1%;
+    animation-delay: 3.25s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    visibility: hidden;
+  }
 
-#smokeydescription{
-  padding-top: 0%;
-}
-#smokeydescription h4{
- font-family: smokeyFont;
- font-size: 18px;
-}
+  #smokeydescription{
+    padding-top: 0%;
+  }
+  #smokeydescription h4{
+   font-family: smokeyFont;
+   font-size: 18px;
+  }
 
-#aboutbio{
-  margin-top: -225px;
-}
-#aboutresume{
-  /*margin-top: -200px;*/
-}
-.aboutheader h1{
-  font-size: 26px;
-
-}
+  #aboutbio{
+    margin-top: -225px;
+  }
+  #aboutresume{
+    /*margin-top: -200px;*/
+  }
+  .aboutheader h1{
+    font-size: 26px;
+  }
 
 /*START OF TIC TAC TOE SECTION MQ*/
 
@@ -839,7 +808,6 @@ border: none;
   border-top: 10px solid;
   border-color: black;
 }
-
 
 #ticpage h2{
   text-align: center;
@@ -865,43 +833,35 @@ border: none;
     padding-top: 4%;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
-    }
+  }
 
-    #winery h3{
-      font-size: 16px;
-      font-style: italic;
-      color: white;
-    }
-    #winery h2{
-      font-size: 36px;
-      color: white;
-      margin-bottom: 3%;
-
-    }
-
-    #winery p{
-      color: white;
-      margin-top: 3%;
-      font-size: 16px;
-    }
-
-    #winery img{
-      width: 175px;
-      opacity: 0.75;
-      margin-bottom: 3%;
-    }
-
-    #contact1 a{
-      padding-right: 0%;
-    }
-
+  #winery h3{
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+  }
+  #winery h2{
+    font-size: 36px;
+    color: white;
+    margin-bottom: 3%;
+  }
+  #winery p{
+    color: white;
+    margin-top: 3%;
+    font-size: 16px;
+  }
+  #winery img{
+    width: 175px;
+    opacity: 0.75;
+    margin-bottom: 3%;
+  }
+  #contact1 a{
+    padding-right: 0%;
+  }
 }
 @media all and (max-width: 420px) {
-
-
   .fullscreen-bg {
       position: relative;
-
       overflow: hidden;
       height: 300px;
       display: flex;
@@ -909,9 +869,6 @@ border: none;
       background-color: black;
       z-index: 0;
   }
-
-
-
   #winery{
     background-image: url("../img/wine-bg.jpg");
     height: 500px;
@@ -921,31 +878,25 @@ border: none;
     padding-top: 4%;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: center;
-    }
-
-    #winery h3{
-      font-size: 14px;
-      font-style: italic;
-      color: white;
-    }
-    #winery h2{
-      font-size: 22px;
-      color: white;
-      margin-bottom: 3%;
-
-    }
-
-    #winery p{
-      color: white;
-      margin-top: 3%;
-      font-size: 12px;
-    }
-
-    #winery img{
-      width: 125px;
-      opacity: 0.75;
-      margin-bottom: 3%;
-    }
-
-
+  }
+  #winery h3{
+    font-size: 14px;
+    font-style: italic;
+    color: white;
+  }
+  #winery h2{
+    font-size: 22px;
+    color: white;
+    margin-bottom: 3%;
+  }
+  #winery p{
+    color: white;
+    margin-top: 3%;
+    font-size: 12px;
+  }
+  #winery img{
+    width: 125px;
+    opacity: 0.75;
+    margin-bottom: 3%;
+  }
 }
