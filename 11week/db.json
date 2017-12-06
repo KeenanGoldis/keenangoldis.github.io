@@ -1,0 +1,85 @@
+{
+  "movies": [
+    {
+      "original_name": "The Sopranos",
+      "id": 1398,
+      "media_type": "tv",
+      "name": "The Sopranos",
+      "vote_count": 436,
+      "vote_average": 8.11,
+      "poster_path": "/u0cLcBQITrYqfHsn06fxnQwtqiE.jpg",
+      "first_air_date": "1999-01-10",
+      "popularity": 33.328711,
+      "genre_ids": [
+        18
+      ],
+      "original_language": "en",
+      "backdrop_path": "/8GZ91vtbYOMp05qruAGPezWC0Ja.jpg",
+      "overview": "The Sopranos is an American television drama created by David Chase. The series revolves around the New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+      "origin_country": [
+        "US"
+      ],
+      "_id": 1
+    },
+    {
+      "original_name": "Boardwalk Empire",
+      "id": 1621,
+      "media_type": "tv",
+      "name": "Boardwalk Empire",
+      "vote_count": 233,
+      "vote_average": 7.62,
+      "poster_path": "/yXZ0ooun7zNNBS9kuHS3TYlnYZ4.jpg",
+      "first_air_date": "2010-09-19",
+      "popularity": 19.810208,
+      "genre_ids": [
+        18,
+        80
+      ],
+      "original_language": "en",
+      "backdrop_path": "/ipPpVwGS0VdtnxF8iEjrD8oryeA.jpg",
+      "overview": "Boardwalk Empire is a period drama focusing on Enoch \"Nucky\" Thompson (based on the historical Enoch L. Johnson), a political figure who rose to prominence and controlled Atlantic City, New Jersey, during the Prohibition period of the 1920s and 1930s. Nucky interacts with several historical figures in both his personal and political life, including mobsters, politicians, government agents, and the common folk who look up to him. The federal government also takes an interest in the bootlegging and other illegal activities in the area, sending agents to investigate possible mob connections but also looking at Nucky's lifestyle—expensive and lavish for a county political figure.\n\nPrimetime Emmy Award-winning screenwriter and producer Terence Winter adapted the show from Boardwalk Empire: The Birth, High Times, and Corruption of Atlantic City, a book by Nelson Johnson about historical criminal kingpin Enoch L. Johnson.",
+      "origin_country": [
+        "US"
+      ],
+      "_id": 2
+    },
+    {
+      "original_name": "Seinfeld",
+      "id": 1400,
+      "media_type": "tv",
+      "name": "Seinfeld",
+      "vote_count": 364,
+      "vote_average": 8.13,
+      "poster_path": "/w7VV1jdtwzEC0c71AjUUA4T65Az.jpg",
+      "first_air_date": "1989-07-05",
+      "popularity": 49.82093,
+      "genre_ids": [
+        35
+      ],
+      "original_language": "en",
+      "backdrop_path": "/8JH8s4WKKSxGxtJvWbQAdaEjv9q.jpg",
+      "overview": "Seinfeld is an American television sitcom that originally aired on NBC from July 5, 1989, to May 14, 1998. It lasted nine seasons, and is now in syndication. It was created by Larry David and Jerry Seinfeld, the latter starring as a fictionalized version of himself. Set predominantly in an apartment block in Manhattan's Upper West Side in New York City, the show features a handful of Jerry's friends and acquaintances, particularly best friend George Costanza, former girlfriend Elaine Benes, and neighbor across the hall Cosmo Kramer.",
+      "origin_country": [
+        "US"
+      ],
+      "_id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
