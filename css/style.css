@@ -38,6 +38,17 @@ h1{
   z-index: 1
 }
 
+#dels a{
+  text-decoration: none !important;
+}
+#dels h2{
+  text-align: center;
+  font-size: 250px;
+  color: red;
+  font-family: tacos;
+  opacity: .5;
+}
+
 /*---------START OF THE ABOUT SECTION------------*/
 
 .jumbotron{
@@ -144,14 +155,11 @@ h1{
   font-size: 66px;
 }
 
-}
-
-/* Start of tic tac toe */
 #tic{
   border: 10px solid;
 }
 
-button{
+#ticpage button{
   margin-top: 25px;
   margin-left: 45%;
   background-color: #5F0B42;
@@ -247,11 +255,16 @@ div[data-cell] {
    max-height:50%;
 }
 
+#dels a{
+  text-decoration: none !important;
+  color: blue;
+  font-size: 200px;
+}
+
 #tacoPage img{
   margin-left: 40%;
   margin-top: 10%;
   animation-duration: 5s;
-
 }
 
 #tacoPage h2{
@@ -260,6 +273,7 @@ div[data-cell] {
   color: red;
   font-family: tacos;
   opacity: .5;
+  text-decoration: none !important;
 }
 #tacoPage h3{
   text-align: center;
@@ -267,43 +281,6 @@ div[data-cell] {
   color: red;
   font-family: tacos;
   opacity: .5;
-}
-
-/*---------------END OF DELS SECTION---------------------*/
-
-/*START OF CONTACT SECTION!*/
-
-#contact{
-  background-color: maroon;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
-#contact1{
-  padding-left: 20%;
-  font-size: 40px;
-}
-#contact2{
-  padding-left: 50%;
-  margin-top: -1%;
-}
-#contactpage h2{
-  text-align: center;
-  font-size: 100px;
-  margin-top: 40%;
-}
-#contact button{
-  background-color: maroon;
-  height: 75px;
-  width: 200px;
-  font-family: Acme;
-  font-size: 50px;
-  border: none;
-}
-#contact1 a{
-  padding-right: 10%;
 }
 
 /*--------------------START OF MEDIA QUERIES*/

@@ -124,12 +124,10 @@
                 <!-- <script type="text/javascript" src="./script.js"></script> -->
 
                 <script>
-
             //this changes background color after click
                 $('[data-cell]').on("click", function() {
                     $(this).css("background", "#5F0B42");
                 })
-
 
                 $(document).ready(function(){
                   var playerTurn = 'X';
@@ -147,179 +145,179 @@
                     }
                   });
 
-                        function checkForWin() {
-                            if (
-                                ($('[data-cell="0"]').text() === playerTurn &&
-                                    $('[data-cell="5"]').text() === playerTurn &&
-                                    $('[data-cell="10"]').text() === playerTurn) ||
-                                ($('[data-cell="5"]').text() === playerTurn &&
-                                    $('[data-cell="10"]').text() === playerTurn &&
-                                    $('[data-cell="15"]').text() === playerTurn) ||
-                                ($('[data-cell="10"]').text() === playerTurn &&
-                                    $('[data-cell="15"]').text() === playerTurn &&
-                                    $('[data-cell="20"]').text() === playerTurn) ||
+                  function checkForWin() {
+                      if (
+                          ($('[data-cell="0"]').text() === playerTurn &&
+                              $('[data-cell="5"]').text() === playerTurn &&
+                              $('[data-cell="10"]').text() === playerTurn) ||
+                          ($('[data-cell="5"]').text() === playerTurn &&
+                              $('[data-cell="10"]').text() === playerTurn &&
+                              $('[data-cell="15"]').text() === playerTurn) ||
+                          ($('[data-cell="10"]').text() === playerTurn &&
+                              $('[data-cell="15"]').text() === playerTurn &&
+                              $('[data-cell="20"]').text() === playerTurn) ||
 
-                                ($('[data-cell="1"]').text() === playerTurn &&
-                                    $('[data-cell="6"]').text() === playerTurn &&
-                                    $('[data-cell="11"]').text() === playerTurn) ||
-                                ($('[data-cell="6"]').text() === playerTurn &&
-                                    $('[data-cell="11"]').text() === playerTurn &&
-                                    $('[data-cell="16"]').text() === playerTurn) ||
-                                ($('[data-cell="11"]').text() === playerTurn &&
-                                    $('[data-cell="16"]').text() === playerTurn &&
-                                    $('[data-cell="21"]').text() === playerTurn) ||
+                          ($('[data-cell="1"]').text() === playerTurn &&
+                              $('[data-cell="6"]').text() === playerTurn &&
+                              $('[data-cell="11"]').text() === playerTurn) ||
+                          ($('[data-cell="6"]').text() === playerTurn &&
+                              $('[data-cell="11"]').text() === playerTurn &&
+                              $('[data-cell="16"]').text() === playerTurn) ||
+                          ($('[data-cell="11"]').text() === playerTurn &&
+                              $('[data-cell="16"]').text() === playerTurn &&
+                              $('[data-cell="21"]').text() === playerTurn) ||
 
-                                ($('[data-cell="2"]').text() === playerTurn &&
-                                    $('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn) ||
-                                ($('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn) ||
-                                ($('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn &&
-                                    $('[data-cell="22"]').text() === playerTurn) ||
+                          ($('[data-cell="2"]').text() === playerTurn &&
+                              $('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn) ||
+                          ($('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn) ||
+                          ($('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn &&
+                              $('[data-cell="22"]').text() === playerTurn) ||
 
-                                ($('[data-cell="3"]').text() === playerTurn &&
-                                    $('[data-cell="8"]').text() === playerTurn &&
-                                    $('[data-cell="13"]').text() === playerTurn) ||
-                                ($('[data-cell="8"]').text() === playerTurn &&
-                                    $('[data-cell="13"]').text() === playerTurn &&
-                                    $('[data-cell="18"]').text() === playerTurn) ||
-                                ($('[data-cell="13"]').text() === playerTurn &&
-                                    $('[data-cell="18"]').text() === playerTurn &&
-                                    $('[data-cell="23"]').text() === playerTurn) ||
+                          ($('[data-cell="3"]').text() === playerTurn &&
+                              $('[data-cell="8"]').text() === playerTurn &&
+                              $('[data-cell="13"]').text() === playerTurn) ||
+                          ($('[data-cell="8"]').text() === playerTurn &&
+                              $('[data-cell="13"]').text() === playerTurn &&
+                              $('[data-cell="18"]').text() === playerTurn) ||
+                          ($('[data-cell="13"]').text() === playerTurn &&
+                              $('[data-cell="18"]').text() === playerTurn &&
+                              $('[data-cell="23"]').text() === playerTurn) ||
 
-                                ($('[data-cell="4"]').text() === playerTurn &&
-                                    $('[data-cell="9"]').text() === playerTurn &&
-                                    $('[data-cell="14"]').text() === playerTurn) ||
-                                ($('[data-cell="9"]').text() === playerTurn &&
-                                    $('[data-cell="14"]').text() === playerTurn &&
-                                    $('[data-cell="19"]').text() === playerTurn) ||
-                                ($('[data-cell="14"]').text() === playerTurn &&
-                                    $('[data-cell="19"]').text() === playerTurn &&
-                                    $('[data-cell="24"]').text() === playerTurn) ||
-            //END OF UP DOWN WINS   START OF LEFT-RIGHT WINS
-                                ($('[data-cell="0"]').text() === playerTurn &&
-                                    $('[data-cell="1"]').text() === playerTurn &&
-                                    $('[data-cell="2"]').text() === playerTurn) ||
-                                ($('[data-cell="1"]').text() === playerTurn &&
-                                    $('[data-cell="2"]').text() === playerTurn &&
-                                    $('[data-cell="3"]').text() === playerTurn) ||
-                                ($('[data-cell="2"]').text() === playerTurn &&
-                                    $('[data-cell="3"]').text() === playerTurn &&
-                                    $('[data-cell="4"]').text() === playerTurn) ||
+                          ($('[data-cell="4"]').text() === playerTurn &&
+                              $('[data-cell="9"]').text() === playerTurn &&
+                              $('[data-cell="14"]').text() === playerTurn) ||
+                          ($('[data-cell="9"]').text() === playerTurn &&
+                              $('[data-cell="14"]').text() === playerTurn &&
+                              $('[data-cell="19"]').text() === playerTurn) ||
+                          ($('[data-cell="14"]').text() === playerTurn &&
+                              $('[data-cell="19"]').text() === playerTurn &&
+                              $('[data-cell="24"]').text() === playerTurn) ||
+      //END OF UP DOWN WINS   START OF LEFT-RIGHT WINS
+                          ($('[data-cell="0"]').text() === playerTurn &&
+                              $('[data-cell="1"]').text() === playerTurn &&
+                              $('[data-cell="2"]').text() === playerTurn) ||
+                          ($('[data-cell="1"]').text() === playerTurn &&
+                              $('[data-cell="2"]').text() === playerTurn &&
+                              $('[data-cell="3"]').text() === playerTurn) ||
+                          ($('[data-cell="2"]').text() === playerTurn &&
+                              $('[data-cell="3"]').text() === playerTurn &&
+                              $('[data-cell="4"]').text() === playerTurn) ||
 
-                                ($('[data-cell="5"]').text() === playerTurn &&
-                                    $('[data-cell="6"]').text() === playerTurn &&
-                                    $('[data-cell="7"]').text() === playerTurn) ||
-                                ($('[data-cell="6"]').text() === playerTurn &&
-                                    $('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="8"]').text() === playerTurn) ||
-                                ($('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="8"]').text() === playerTurn &&
-                                    $('[data-cell="9"]').text() === playerTurn) ||
+                          ($('[data-cell="5"]').text() === playerTurn &&
+                              $('[data-cell="6"]').text() === playerTurn &&
+                              $('[data-cell="7"]').text() === playerTurn) ||
+                          ($('[data-cell="6"]').text() === playerTurn &&
+                              $('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="8"]').text() === playerTurn) ||
+                          ($('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="8"]').text() === playerTurn &&
+                              $('[data-cell="9"]').text() === playerTurn) ||
 
-                                ($('[data-cell="10"]').text() === playerTurn &&
-                                    $('[data-cell="11"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn) ||
-                                ($('[data-cell="11"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="13"]').text() === playerTurn) ||
-                                ($('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="13"]').text() === playerTurn &&
-                                    $('[data-cell="14"]').text() === playerTurn) ||
+                          ($('[data-cell="10"]').text() === playerTurn &&
+                              $('[data-cell="11"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn) ||
+                          ($('[data-cell="11"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="13"]').text() === playerTurn) ||
+                          ($('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="13"]').text() === playerTurn &&
+                              $('[data-cell="14"]').text() === playerTurn) ||
 
-                                ($('[data-cell="15"]').text() === playerTurn &&
-                                    $('[data-cell="16"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn) ||
-                                ($('[data-cell="16"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn &&
-                                    $('[data-cell="18"]').text() === playerTurn) ||
-                                ($('[data-cell="17"]').text() === playerTurn &&
-                                    $('[data-cell="18"]').text() === playerTurn &&
-                                    $('[data-cell="19"]').text() === playerTurn) ||
+                          ($('[data-cell="15"]').text() === playerTurn &&
+                              $('[data-cell="16"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn) ||
+                          ($('[data-cell="16"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn &&
+                              $('[data-cell="18"]').text() === playerTurn) ||
+                          ($('[data-cell="17"]').text() === playerTurn &&
+                              $('[data-cell="18"]').text() === playerTurn &&
+                              $('[data-cell="19"]').text() === playerTurn) ||
 
-                                ($('[data-cell="20"]').text() === playerTurn &&
-                                    $('[data-cell="21"]').text() === playerTurn &&
-                                    $('[data-cell="22"]').text() === playerTurn) ||
-                                ($('[data-cell="21"]').text() === playerTurn &&
-                                    $('[data-cell="22"]').text() === playerTurn &&
-                                    $('[data-cell="23"]').text() === playerTurn) ||
-                                ($('[data-cell="22"]').text() === playerTurn &&
-                                    $('[data-cell="23"]').text() === playerTurn &&
-                                    $('[data-cell="24"]').text() === playerTurn) ||
-            //start of NW/SE diagonal Wins
-                                ($('[data-cell="10"]').text() === playerTurn &&
-                                    $('[data-cell="16"]').text() === playerTurn &&
-                                    $('[data-cell="22"]').text() === playerTurn) ||
-                                ($('[data-cell="5"]').text() === playerTurn &&
-                                    $('[data-cell="11"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn) ||
-                                ($('[data-cell="11"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn &&
-                                    $('[data-cell="23"]').text() === playerTurn) ||
-                                ($('[data-cell="0"]').text() === playerTurn &&
-                                    $('[data-cell="6"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn) ||
-                                ($('[data-cell="6"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="18"]').text() === playerTurn) ||
-                                ($('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="18"]').text() === playerTurn &&
-                                    $('[data-cell="24"]').text() === playerTurn) ||
-                                ($('[data-cell="1"]').text() === playerTurn &&
-                                    $('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="13"]').text() === playerTurn) ||
-                                ($('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="13"]').text() === playerTurn &&
-                                    $('[data-cell="19"]').text() === playerTurn) ||
-                                ($('[data-cell="2"]').text() === playerTurn &&
-                                    $('[data-cell="8"]').text() === playerTurn &&
-                                    $('[data-cell="14"]').text() === playerTurn) ||
-            //START OF SW/NE DIAGONAL WINS
-                                ($('[data-cell="14"]').text() === playerTurn &&
-                                    $('[data-cell="18"]').text() === playerTurn &&
-                                    $('[data-cell="22"]').text() === playerTurn) ||
-                                ($('[data-cell="9"]').text() === playerTurn &&
-                                    $('[data-cell="13"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn) ||
-                                ($('[data-cell="13"]').text() === playerTurn &&
-                                    $('[data-cell="17"]').text() === playerTurn &&
-                                    $('[data-cell="21"]').text() === playerTurn) ||
-                                ($('[data-cell="4"]').text() === playerTurn &&
-                                    $('[data-cell="8"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn) ||
-                                ($('[data-cell="8"]').text() === playerTurn &&
-                                    $('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="16"]').text() === playerTurn) ||
-                                ($('[data-cell="12"]').text() === playerTurn &&
-                                    $('[data-cell="16"]').text() === playerTurn &&
-                                    $('[data-cell="20"]').text() === playerTurn) ||
-                                ($('[data-cell="3"]').text() === playerTurn &&
-                                    $('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="16"]').text() === playerTurn) ||
-                                ($('[data-cell="7"]').text() === playerTurn &&
-                                    $('[data-cell="11"]').text() === playerTurn &&
-                                    $('[data-cell="15"]').text() === playerTurn) ||
-                                ($('[data-cell="2"]').text() === playerTurn &&
-                                    $('[data-cell="6"]').text() === playerTurn &&
-                                    $('[data-cell="10"]').text() === playerTurn) ||
-                                ($('[data-cell="10"]').text() === playerTurn &&
-                                    $('[data-cell="15"]').text() === playerTurn) &&
-                                    $('[data-cell="20"]').text() === playerTurn)
-                                  {
-                                $('#announce-winner').text(`Player ${playerTurn} Wins!`)
-                            }
+                          ($('[data-cell="20"]').text() === playerTurn &&
+                              $('[data-cell="21"]').text() === playerTurn &&
+                              $('[data-cell="22"]').text() === playerTurn) ||
+                          ($('[data-cell="21"]').text() === playerTurn &&
+                              $('[data-cell="22"]').text() === playerTurn &&
+                              $('[data-cell="23"]').text() === playerTurn) ||
+                          ($('[data-cell="22"]').text() === playerTurn &&
+                              $('[data-cell="23"]').text() === playerTurn &&
+                              $('[data-cell="24"]').text() === playerTurn) ||
+      //start of NW/SE diagonal Wins
+                          ($('[data-cell="10"]').text() === playerTurn &&
+                              $('[data-cell="16"]').text() === playerTurn &&
+                              $('[data-cell="22"]').text() === playerTurn) ||
+                          ($('[data-cell="5"]').text() === playerTurn &&
+                              $('[data-cell="11"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn) ||
+                          ($('[data-cell="11"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn &&
+                              $('[data-cell="23"]').text() === playerTurn) ||
+                          ($('[data-cell="0"]').text() === playerTurn &&
+                              $('[data-cell="6"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn) ||
+                          ($('[data-cell="6"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="18"]').text() === playerTurn) ||
+                          ($('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="18"]').text() === playerTurn &&
+                              $('[data-cell="24"]').text() === playerTurn) ||
+                          ($('[data-cell="1"]').text() === playerTurn &&
+                              $('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="13"]').text() === playerTurn) ||
+                          ($('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="13"]').text() === playerTurn &&
+                              $('[data-cell="19"]').text() === playerTurn) ||
+                          ($('[data-cell="2"]').text() === playerTurn &&
+                              $('[data-cell="8"]').text() === playerTurn &&
+                              $('[data-cell="14"]').text() === playerTurn) ||
+      //START OF SW/NE DIAGONAL WINS
+                          ($('[data-cell="14"]').text() === playerTurn &&
+                              $('[data-cell="18"]').text() === playerTurn &&
+                              $('[data-cell="22"]').text() === playerTurn) ||
+                          ($('[data-cell="9"]').text() === playerTurn &&
+                              $('[data-cell="13"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn) ||
+                          ($('[data-cell="13"]').text() === playerTurn &&
+                              $('[data-cell="17"]').text() === playerTurn &&
+                              $('[data-cell="21"]').text() === playerTurn) ||
+                          ($('[data-cell="4"]').text() === playerTurn &&
+                              $('[data-cell="8"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn) ||
+                          ($('[data-cell="8"]').text() === playerTurn &&
+                              $('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="16"]').text() === playerTurn) ||
+                          ($('[data-cell="12"]').text() === playerTurn &&
+                              $('[data-cell="16"]').text() === playerTurn &&
+                              $('[data-cell="20"]').text() === playerTurn) ||
+                          ($('[data-cell="3"]').text() === playerTurn &&
+                              $('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="16"]').text() === playerTurn) ||
+                          ($('[data-cell="7"]').text() === playerTurn &&
+                              $('[data-cell="11"]').text() === playerTurn &&
+                              $('[data-cell="15"]').text() === playerTurn) ||
+                          ($('[data-cell="2"]').text() === playerTurn &&
+                              $('[data-cell="6"]').text() === playerTurn &&
+                              $('[data-cell="10"]').text() === playerTurn) ||
+                          ($('[data-cell="10"]').text() === playerTurn &&
+                              $('[data-cell="15"]').text() === playerTurn) &&
+                              $('[data-cell="20"]').text() === playerTurn)
+                            {
+                          $('#announce-winner').text(`Player ${playerTurn} Wins!`)
                         }
-                        // this clears out the board and resets the variable
-                        $('#clear').on('click', function() {
-                            $('[data-cell], #announce-winner').text('');
-                            playerTurn = 'X';
-                        })
-                        $('#clear').on("click", function() {
-                            $('[data-cell], #announce-winner').css("background", "black");
-                        })
-                    });
+                      }
+                    // this clears out the board and resets the variable
+                    $('#clear').on('click', function() {
+                        $('[data-cell], #announce-winner').text('');
+                        playerTurn = 'X';
+                    })
+                    $('#clear').on("click", function() {
+                        $('[data-cell], #announce-winner').css("background", "black");
+                    })
+                  });
                 </script>
               </div>
             </div>
@@ -364,19 +362,7 @@
 
     <!-- START OF CONTACT -->
 
-    <div class="jumbotron" id="contact">
-      <div class="container-fluid"></div>
-        <div class="row">
-          <div class="col-md-12">
-            <div id="contact1">
-              <a href="https://github.com/KeenanGoldis">Github <i class="fa fa-github" aria-hidden="true"></i></a>
-              <a href="https://www.linkedin.com/in/keenan-goldis-a777a239/">Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-              <a href="mailto:keenangoldis@gmail.com"><button>Email Me</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+
       <!-- these are my JavaScript files -->
     <script src="js/javascript.js"></script>
     <!-- JQuery CDN script -->
