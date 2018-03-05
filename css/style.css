@@ -44,6 +44,7 @@ h1{
 }
 #dels h2{
   text-align: center;
+  padding-top: 100px;
   font-size: 250px;
   color: red;
   font-family: tacos;
@@ -402,6 +403,11 @@ div[data-cell] {
   #contact1 a{
     padding-right: 6%;
   }
+
+  #dels h2{
+    font-size: 200px;
+  }
+
 }
 
 @media all and (max-width: 990px) {
@@ -469,6 +475,10 @@ div[data-cell] {
     padding-left: 265px;
     margin-top: -13.25%;
   }
+  #dels h2{
+    padding-top: 200px;
+    font-size: 150px;
+  }
 }
 
 @media all and (max-width: 768px) {
@@ -510,6 +520,10 @@ div[data-cell] {
   #abouttitlespic{
     padding-left: 285px;
     margin-top: -11.25%;
+  }
+  #dels h2{
+    padding-top: 250px;
+    font-size: 100px;
   }
 }
 
@@ -615,6 +629,15 @@ div[data-cell] {
   }
   #contact1 a{
     padding-right: 0%;
+  }
+}
+
+@media all and (max-width:470px) {
+  #dels h2{
+    padding-top: 250px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 60px;
   }
 }
 @media all and (max-width: 420px) {
