@@ -17,11 +17,6 @@
   font-size: 42px;
 }
 
-a{
-  color: lightgray;
-  text-decoration: none !important;
-}
-
 body{
   margin: 0;
   width: 100%;
@@ -36,54 +31,6 @@ main{
   margin-left: 1%;
   margin-right: 1%;
 }
-/* Start of tic tac toe */
-#tic{
-  /* margin-left: 25%;
-  margin-right: 3%; */
-  border: 10px solid;
-}
-
-button{
-  margin-top: 25px;
-  margin-left: 45%;
-  background-color: #5F0B42;
-  border-color: darkorange;
-  color: yellow;
-}
-
-#title h1{
-  color: white;
-  font-size: 62px;
-}
-#title h2{
-  color: white;
-  font-size: 32px;
-}
-
-div[data-cell] {
-  width: 110px;
-  height: 110px;
-  background-color: #f2f2f2;
-  float: left;
-  border: 3px solid darkorange;
-  font-size: 70px;
-  text-align: center;
-  color: yellow;
-  background-color: black;
-}
-
-#tic .row {
-  clear: both;
-}
-
-#announce-winner {
-  clear: both;
-  font-size: 50px;
-  color: white;
-  text-align: center;
-}
-
-/* End of tic tac toe */
 
 h1{
   color: white;
@@ -156,6 +103,7 @@ h1{
   margin-top: -11%;
   opacity: 10%;
   z-index: -1;
+  visibility: hidden;
 }
 
 .aboutheader {
@@ -194,6 +142,53 @@ h1{
   color: red;
   font-family: 'Italianno', cursive;
   font-size: 66px;
+}
+
+}
+
+/* Start of tic tac toe */
+#tic{
+  border: 10px solid;
+}
+
+button{
+  margin-top: 25px;
+  margin-left: 45%;
+  background-color: #5F0B42;
+  border-color: darkorange;
+  color: yellow;
+}
+
+#title h1{
+  color: white;
+  font-size: 62px;
+}
+#title h2{
+  color: white;
+  font-size: 32px;
+}
+
+div[data-cell] {
+  width: 110px;
+  height: 110px;
+  background-color: #f2f2f2;
+  float: left;
+  border: 3px solid darkorange;
+  font-size: 70px;
+  text-align: center;
+  color: yellow;
+  background-color: black;
+}
+
+#tic .row {
+  clear: both;
+}
+
+#announce-winner {
+  clear: both;
+  font-size: 50px;
+  color: white;
+  text-align: center;
 }
 
 /*END OF TIC TAC TOE SECTION*/
@@ -235,7 +230,6 @@ h1{
   opacity: 0.75;
   margin-bottom: 3%;
 }
-
 /*-------------END OF WINERY SECTION ---------------*/
 
 /*START OF DEL'S LEMONDADE*/
@@ -251,8 +245,6 @@ h1{
   img.resize{
    max-width:50%;
    max-height:50%;
-}
-
 }
 
 #tacoPage img{
@@ -318,12 +310,13 @@ h1{
 
 @media all and (max-width: 2100px) {
   #abouttitlespic{
-    margin-top: -7.5%;
+    margin-top: -90.5%;
     padding-left: 33%;
+    visibility: hidden;
   }
 }
 
-}*/
+}
 @media all and (max-width: 1500px) {
   #abouttitlespic{
     padding-left: 32%;
@@ -335,13 +328,14 @@ h1{
 @media all and (max-width: 1445px) {
 
   #abouttitlespic{
-    padding-left: 380px;
+    padding-left: 435px;
     padding-bottom: 1%;
-    animation-delay: 3.25s;
+    animation-delay: 1.25s;
     animation-duration: 7s;
     animation-iteration-count: infinite;
-    margin-top: -11.5%;
+    margin-top: -10.5%;
     opacity: 70%;
+    visibility: visible;
   }
 
 }
