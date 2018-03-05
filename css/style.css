@@ -140,8 +140,12 @@ h1{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-top: 10px solid;
+  border: 10px solid;
   border-color: black;
+}
+
+#ticpage{
+  padding-left: 10%;
 }
 
 #ticpage h2{
@@ -158,10 +162,6 @@ h1{
   color: red;
   font-family: 'Italianno', cursive;
   font-size: 66px;
-}
-
-#tic{
-  border: 10px solid;
 }
 
 #ticpage button{
@@ -656,12 +656,22 @@ div[data-cell] {
     clear: both;
   }
 
-h1{
-  color: white;
-  font-family: cursive;
+  h1{
+    color: white;
+    font-family: cursive;
+  }
 }
 
+@media all and (max-width: 805px) {
+  div[data-cell] {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid;
+    font-size: 50px;
+  }
 }
+
 @media all and (max-width: 740px) {
 
   h1{
